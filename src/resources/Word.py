@@ -1,21 +1,14 @@
 
+
 class Word :
 
-    def __init__(self , chars) :
-
-        self.chars = chars
-
-
-class RPW(Word) :
     '''
     Research Paper Word
-
-    words composed in the research paper
     '''
 
     def __init__(self , chars , count = 0) :
 
-        Word.__init__(self , chars)
+        self.chars = chars
 
         self.count = count
 
@@ -24,7 +17,7 @@ class RPW(Word) :
 
         new_chars = str()
 
-        valid_chars = "abcdefghijklmnopqrstuvwxyz-"
+        valid_chars = "abcdefghijklmnopqrstuvwxyz-0123456789'%$"
 
         for char in self.chars :
 
@@ -40,32 +33,7 @@ class RPW(Word) :
         self.count += 1
 
 
-class KW(RPW):
-    '''
-    Keyword
-    '''
 
-    def __init__(self, chars , count):
-
-        RPW.__init__(self, chars , count)
-
-
-
-class CW(Word) :
-    '''
-    Common word
-
-    based on Zipf's law
-    '''
-
-    def __init__(self , chars , fpm , rank) :
-
-        Word.__init__(self , chars)
-
-        #frequency per million
-        self.fpm = fpm
-
-        self.rank = rank
 
 
 
