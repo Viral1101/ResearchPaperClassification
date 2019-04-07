@@ -15,6 +15,7 @@ class Sentence :
         self.classification = classification
 
     def get_topic(self) :
+        '''constructs a topic from the sentence by filtering out all of the stopwords'''
 
         topic = str()
 
@@ -23,8 +24,8 @@ class Sentence :
             if word not in STOPWORDS :
 
                 topic += word + " "
-
-        return topic
+            
+        return topic[:-1]
 
 class JSON_File :
 
@@ -36,6 +37,8 @@ class JSON_File :
         self.data = str()
 
     def get_sentences(self , sentence_texts , sentence_classifications) :
+        '''receives a list of sentences (strings) and a list of classifications (numbers 0-2)'''
+        '''constructs Sentence objects and appends them to self.sentences'''
 
         for sentence_text , sentence_classification in zip(sentence_texts , sentence_classifications) :
 
@@ -46,7 +49,7 @@ class JSON_File :
         self.phrases = phrases
 
     def get_data(self) :
-
+        '''constructs the json file data as a string containing Sentence objects'''
 
         self.data += \
 """
@@ -74,6 +77,7 @@ class JSON_File :
 """
 
     def write_data(self) :
+        '''writes the data collected from sthe lists of sentences and classifications to a json file'''
 
         with open("json_example.json" , "w") as writer :
 
@@ -85,6 +89,7 @@ class JSON_File :
 
 
 def sentences_classifications_to_json(sentences , classifications) :
+    '''main function'''
 
     json = JSON_File()
 
