@@ -83,22 +83,23 @@ class JSON_File :
 
         print(self.data)
 
-
-def sentences_classifications_to_json(sentences , classifications) :
-
-    json = JSON_File()
-
-    json.get_sentences(sentences , classifications)
-    json.get_data()
-    json.display_data()
-    json.write_data()
-
-
 file_name = "example.pdf"
+'''
+sentences = Model.get_sentence_list(file_name)
+classifications = Model.get_classification_list(file_name)
 
-sentences_classifications_to_json(
+json = JSON_File()
 
-    Model.get_sentence_list(file_name) ,
-    Model.get_classification_list(file_name)
+json.get_sentences(sentences , classifications)
+json.get_data()
+json.display_data()
+json.write_data()
 
-)
+'''
+
+
+
+
+
+
+
