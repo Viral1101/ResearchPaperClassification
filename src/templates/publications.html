@@ -168,10 +168,11 @@
         <div class="container-fluid">
 
           <!-- Content Row -->
-          <div class="row">
+          {% for id,title,authors,url in comb_lis %}
+            <div class="row">
 
             <!-- Earnings (Monthly) Card Example -->
-          {% for id,title,authors,url in comb_lis %}
+
             <div class="col-xl-3 col-md-6 mb-4 collapsed" data-toggle="collapse" data-target="#collapse{{id}}" aria-expanded="true" aria-controls="collapseTwo">
               <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
@@ -202,15 +203,8 @@
                 </div>
               </div>
             </div>
-            <div id="collapse{{id}}" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Custom Components:</h6>
-                    <a class="collapse-item" href="buttons.html">Buttons</a>
-                    <a class="collapse-item" href="cards.html">Cards</a>
-                </div>
-            </div>
         </div>
-            {% endfor %}
+        {% endfor %}
           </div>
 
           <!-- Content Row -->
