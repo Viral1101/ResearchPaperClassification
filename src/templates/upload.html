@@ -171,17 +171,34 @@
           <div class="row">
 
             <!-- Earnings (Monthly) Card Example -->
-            {% csrf_token %}
             <div class="col-xl-6 col-md-6 mb-4">
               <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Documents in Collection</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">{{count}}</div>
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Click to Upload PDF</div>
+                      <label class="btn btn-default btn-file">
+                        <i class="fas fa-fw fa-upload"></i>
+                        <span id="file-label">Upload</span> <input type="file" name="files[]" id="files" style="display: none;">
+                      </label>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800" id="progress-label">0%</div>
+                    </div>
+                    <div class="col">
+                        <div class="progress progress-sm mr-2">
+                            <div class="progress-bar bg-info" role="progressbar" id="progress-bar" style="width: 0%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <form action="/post_create/" method="post">
+                            {% csrf_token %}
+                            <label>
+                                <i class="fas fa-calendar text-gray-300"></i>
+                                <input class="btn btn-primary" type="submit" value="Submit">
+                            </label>
+                            <input type="hidden" name="url" id="url">
+                        </form>
                     </div>
                   </div>
                 </div>
@@ -264,5 +281,89 @@
   <script src="{% static 'js/demo/chart-pie-demo.js' %}"></script>
 
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+<script>
+    $(document).on('change', ':file', function() {
+    var input = $(this),
+        numFiles = input.get(0).files ? input.get(0).files.length : 1,
+        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+    input.trigger('fileselect', [numFiles, label]);
+    });
+
+    $(document).ready( function() {
+    $(':file').on('fileselect', function(event, numFiles, label) {
+        console.log(numFiles);
+        console.log(label);
+        $('#file-label').text(label);
+        uploadimage();
+    });
+});
+
+    // Initialize Firebase
+    // TODO: Replace with your project's customized code snippet
+        var config = {
+            apiKey: "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
+            authDomain: "researchclassification.firebaseapp.com",
+            databaseURL: "https://researchclassification.firebaseio.com",
+            projectId: "researchclassification",
+            storageBucket: "researchclassification.appspot.com",
+            messagingSenderId: "383247879128",
+        };
+
+    firebase.initializeApp(config);
+
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    function uploadimage(){
+
+        // Upload file and metadata to the object 'images/mountains.jpg'
+        var storageRef = firebase.storage().ref();
+        var file = document.getElementById("files").files[0];
+        var uploadTask = storageRef.child('docs/' + file.name).put(file);
+
+        // Listen for state changes, errors, and completion of the upload.
+        uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
+          function(snapshot) {
+            // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+            var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            $('#progress-label').text(progress + "%");
+            $('#progress-bar').css('width', progress + '%');
+            console.log('Upload is ' + progress + '% done');
+            switch (snapshot.state) {
+              case firebase.storage.TaskState.PAUSED: // or 'paused'
+                console.log('Upload is paused');
+                break;
+              case firebase.storage.TaskState.RUNNING: // or 'running'
+                console.log('Upload is running');
+                break;
+            }
+          }, function(error) {
+
+          // A full list of error codes is available at
+          // https://firebase.google.com/docs/storage/web/handle-errors
+          switch (error.code) {
+            case 'storage/unauthorized':
+              // User doesn't have permission to access the object
+              break;
+
+            case 'storage/canceled':
+              // User canceled the upload
+              break;
+
+            case 'storage/unknown':
+              // Unknown error occurred, inspect error.serverResponse
+              break;
+          }
+        }, function() {
+          // Upload completed successfully, now we can get the download URL
+          uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+            document.getElementById("url").value = downloadURL;
+            console.log('File available at', downloadURL);
+          });
+        });
+    };
+
+
+</script>
 
 </html>

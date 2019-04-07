@@ -21,15 +21,19 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.singIn),
+    url(r'^$', views.login),
     url(r'^postsign/', views.postsign),
-    url(r'^logout/', views.logout, name="log"),
-    url(r'^signup/', views.signup, name="signup"),
+    url(r'^logout/', views.logout, name="logout"),
+    url(r'^register/', views.register, name="register"),
     url(r'^postsignup/', views.postsignup, name="postsignup"),
+    url(r'^index/', views.index, name="index"),
     url(r'^create/', views.create, name='create'),
     url(r'^post_create/', views.post_create, name='post_create'),
     url(r'^check/', views.check, name='check'),
-    url(r'^post_check/', views.post_check, name='post_check')
+    url(r'^post_check/', views.post_check, name='post_check'),
+    url(r'^upload/', views.upload, name='upload'),
+    url(r'^publications/', views.publications, name='publications'),
+    url(r'^phrases/(?P<pid>\d+)/$', views.phrases, name='phrases')
     ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

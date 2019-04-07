@@ -19,6 +19,14 @@
 
   <!-- Custom styles for this template-->
   <link href="{% static 'css/sb-admin-2.min.css' %}" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+      <!-- Bootstrap core JavaScript-->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
 
 </head>
 
@@ -171,22 +179,37 @@
           <div class="row">
 
             <!-- Earnings (Monthly) Card Example -->
-            {% csrf_token %}
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
+          {% for id,agree,phrase,core,topic in comb_lis %}
+            <div class="col-xl-12 col-md-12 mb-4">
+              <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Documents in Collection</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">{{count}}</div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">{{phrase}}</div>
+                            <li>Classification:
+                                <div class="form-group text-uppercase">
+                                  <select class="form-control" id="sel-{{id}}">
+                                    <option value="0" {% if core == 0 %}selected="selected"{% endif %}>core</option>
+                                    <option value="1" {% if core == 1 %}selected="selected"{% endif %}>peripheral</option>
+                                    <option value="2" {% if core == 2 %}selected="selected"{% endif %}>other</option>
+                                  </select>
+                                </div>
+                            </li>
+                            <li>Topic:
+                                {{topic}}</li>
+                        </div>
+                      </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        <input type="checkbox" data-toggle="toggle" id="{{id}}" data-on="Agree" data-off="Disagree" data-onstyle="success" data-offstyle="danger">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            {% endfor %}
           </div>
 
           <!-- Content Row -->
@@ -246,12 +269,6 @@
     </div>
   </div>
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
-  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-
-  <!-- Core plugin JavaScript-->
-  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
 
   <!-- Custom scripts for all pages-->
   <script src="{% static 'js/sb-admin-2.min.js' %}"></script>
@@ -260,9 +277,14 @@
   <script src="{% static 'vendor/chart.js/Chart.min.js' %}"></script>
 
   <!-- Page level custom scripts -->
-  <script src="{% static 'js/demo/chart-area-demo.js' %}"></script>
-  <script src="{% static 'js/demo/chart-pie-demo.js' %}"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+{% for id,agree,phrase,core,topic in comb_lis %}
+<script>$('#sel-{{id}}').val({{core}});</script>
+{% endfor %}
 
 </body>
+
+
 
 </html>

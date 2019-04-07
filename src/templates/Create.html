@@ -12,7 +12,7 @@
 	</head>
 	<body>
 	    <div>
-	        <button type="button" onclick="location.href='{% url 'log' %}'">Logout</button>
+	        <button type="button" onclick="location.href='{% url 'logout' %}'">Logout</button>
 	    </div>
 
 	    <H2>Create Daily Progress Report</H2>
@@ -35,12 +35,12 @@
   		// Initialize Firebase
   		// TODO: Replace with your project's customized code snippet
   			var config = {
-    			apiKey: "AIzaSyBiES-x7782uGeakjuI1TOT49h_yr9faU0",
-    			authDomain: "hackathon2019-236723.firebaseapp.com",
-    			databaseURL: "https://hackathon2019-236723.firebaseio.com",
-    			projectId: "hackathon2019-236723",
-    			storageBucket: "hackathon2019-236723.appspot.com",
-    			messagingSenderId: "397133042952",
+    			apiKey: "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
+    			authDomain: "researchclassification.firebaseapp.com",
+    			databaseURL: "https://researchclassification.firebaseio.com",
+			    projectId: "researchclassification",
+    			storageBucket: "researchclassification.appspot.com",
+    			messagingSenderId: "383247879128",
   			};
 
 	  	firebase.initializeApp(config);
@@ -48,23 +48,52 @@
 		// Get a reference to the storage service, which is used to create references in your storage bucket
 		function uploadimage(){
 
-	  		var storage = firebase.storage();
+	  		// Upload file and metadata to the object 'images/mountains.jpg'
+	  		var storageRef = firebase.storage().ref();
 	  		var file = document.getElementById("files").files[0];
-	  		var storageRef = storage.ref();
-	  		var thisref = storageRef.child(file.name).put(file);
+			var uploadTask = storageRef.child('docs/' + file.name).put(file);
 
-		  	thisref.on('state_changed',function(snapshot){
-		  		console.log("file uploaded succesfully");
-	  		},
-		  		function(error) {
-		  	},
-	  			function() {
-				// Upload completed successfully, now we can get the download URL
-					var downloadURL = thisref.snapshot.downloadURL;
-					console.log("got url");
-					document.getElementById("url").value = downloadURL;
-					alert("file uploaded successfully");
+			// Listen for state changes, errors, and completion of the upload.
+			uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
+			  function(snapshot) {
+				// Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+				var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+				console.log('Upload is ' + progress + '% done');
+				switch (snapshot.state) {
+				  case firebase.storage.TaskState.PAUSED: // or 'paused'
+					console.log('Upload is paused');
+					break;
+				  case firebase.storage.TaskState.RUNNING: // or 'running'
+					console.log('Upload is running');
+					break;
+				}
+			  }, function(error) {
+
+			  // A full list of error codes is available at
+			  // https://firebase.google.com/docs/storage/web/handle-errors
+			  switch (error.code) {
+				case 'storage/unauthorized':
+				  // User doesn't have permission to access the object
+				  break;
+
+				case 'storage/canceled':
+				  // User canceled the upload
+				  break;
+
+				case 'storage/unknown':
+				  // Unknown error occurred, inspect error.serverResponse
+				  break;
+			  }
+			}, function() {
+			  // Upload completed successfully, now we can get the download URL
+			  uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+			  	document.getElementById("url").value = downloadURL;
+				console.log('File available at', downloadURL);
+				location.href='{% url 'post_create' %}'
+			  });
 			});
 		};
+
+
 	</script>
 </html>

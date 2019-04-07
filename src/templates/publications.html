@@ -171,22 +171,46 @@
           <div class="row">
 
             <!-- Earnings (Monthly) Card Example -->
-            {% csrf_token %}
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
+          {% for id,title,authors,url in comb_lis %}
+            <div class="col-xl-3 col-md-6 mb-4 collapsed" data-toggle="collapse" data-target="#collapse{{id}}" aria-expanded="true" aria-controls="collapseTwo">
+              <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Documents in Collection</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">{{count}}</div>
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                          {% for author in authors %}
+                            {{author}}
+                          {% endfor %}
+                      </div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">{{title}}</div>
+                        </div>
+                      </div>
                     </div>
+                      <div class="col-auto">
+                          <a href="{% url 'phrases' id %}" class="dynamic-link" id="{{id}}">
+                            <i class="fas fa-clipboard fa-2x text-gray-300 mr-1"></i>
+                        </a>
+                      </div>
                     <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        <a href="{{url}}">
+                            <i class="fas fa-download fa-2x text-gray-300"></i>
+                        </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div id="collapse{{id}}" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Custom Components:</h6>
+                    <a class="collapse-item" href="buttons.html">Buttons</a>
+                    <a class="collapse-item" href="cards.html">Cards</a>
+                </div>
+            </div>
+        </div>
+            {% endfor %}
           </div>
 
           <!-- Content Row -->
@@ -264,5 +288,6 @@
   <script src="{% static 'js/demo/chart-pie-demo.js' %}"></script>
 
 </body>
+
 
 </html>
