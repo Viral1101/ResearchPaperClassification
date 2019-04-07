@@ -142,7 +142,8 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{e}}</span>
+                <input type="hidden" id="{{pid}}" class="pid">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{e}}</span>
                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
               </a>
               <!-- Dropdown - User Information -->
@@ -175,22 +176,32 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
+        <!-- Page Heading -->
+            {% csrf_token %}
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Phrases</h1>
+            <a href="#" onclick="updatedb()" id="{% url 'update' %}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm update-link"><i class="fas fa-upload fa-sm text-white-50"></i> Update Model</a>
+          </div>
+
           <!-- Content Row -->
-          <div class="row">
+          {% for id,agree,phrase,core,topic in comb_lis %}
+
+            <div class="row">
 
             <!-- Earnings (Monthly) Card Example -->
-          {% for id,agree,phrase,core,topic in comb_lis %}
-            <div class="col-xl-12 col-md-12 mb-4">
+
+            <div class="phrase-node col-xl-12 col-md-12 mb-4">
+                <input class="phrase-id" type="hidden" value="{{id}}">
               <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
-                          <div class="h5 mb-0 font-weight-bold text-gray-800">{{phrase}}</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-800 phrase-div" id="phr-{{id}}">{{phrase}}</div>
                             <li>Classification:
                                 <div class="form-group text-uppercase">
-                                  <select class="form-control" id="sel-{{id}}">
+                                  <select class="form-control core-sel">
                                     <option value="0" {% if core == 0 %}selected="selected"{% endif %}>core</option>
                                     <option value="1" {% if core == 1 %}selected="selected"{% endif %}>peripheral</option>
                                     <option value="2" {% if core == 2 %}selected="selected"{% endif %}>other</option>
@@ -198,19 +209,20 @@
                                 </div>
                             </li>
                             <li>Topic:
-                                {{topic}}</li>
+                                <span class="topic-span" id="top-{{id}}">{{topic}}</span></li>
                         </div>
                       </div>
                     </div>
                     <div class="col-auto">
-                        <input type="checkbox" data-toggle="toggle" id="{{id}}" data-on="Agree" data-off="Disagree" data-onstyle="success" data-offstyle="danger">
+                        <input class="agree-tog" type="checkbox" data-toggle="toggle" id="agr-{{id}}" {% if agree %} checked {% endif %} data-on="Agree" data-off="Disagree" data-onstyle="success" data-offstyle="danger">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            {% endfor %}
           </div>
+
+            {% endfor %}
 
           <!-- Content Row -->
           <div class="row">
@@ -279,11 +291,65 @@
   <!-- Page level custom scripts -->
   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
-{% for id,agree,phrase,core,topic in comb_lis %}
-<script>$('#sel-{{id}}').val({{core}});</script>
-{% endfor %}
-
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+<script>
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    function updatedb() {
+
+        var output = {phrases: []};
+        var pub_id = $('.pid').attr('id');
+
+        $('.phrase-node').each(function () {
+
+            var pid = $(this).find('.phrase-id').val();
+            var agr = $(this).find('.agree-tog').is(':checked');
+            var phr = $(this).find('.phrase-div').text();
+            var cor = $(this).find('.core-sel option:selected').val();
+            var top = $(this).find('.topic-span').text();
+
+            var temp = {
+                        agree: agr,
+                        phrase: phr,
+                        class: cor,
+                        topic: top
+                        };
+
+            output.phrases.push(temp)
+        });
+
+        var el = document.getElementsByName("csrfmiddlewaretoken");
+        csrf_value = el[0].getAttribute("value");
+
+        function csrfSafeMethod(method) {
+            // these HTTP methods do not require CSRF protection
+            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+        }
+
+       $.ajaxSetup({
+            beforeSend: function(xhr, settings) {
+            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+            xhr.setRequestHeader("X-CSRFToken", csrf_value);
+        }
+    }
+});
+
+       $.ajax({
+       url: '/update/',
+       type: "POST",
+       dataType: "json",
+       data: JSON.stringify({output, pub_id}),
+       success: function(msg){
+                alert(msg);
+            }
+        });
+
+        console.log(output);
+        return false;
+    }
+
+</script>
 
 
 

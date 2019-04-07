@@ -1,6 +1,7 @@
 import pyrebase
 from django.shortcuts import render
 from django.contrib.auth import views as auth_views
+from django.http import StreamingHttpResponse
 
 config = {
     "apiKey": "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
@@ -291,4 +292,43 @@ def phrases(request, pid):
         topics.append(topic)
 
     comb_lis = zip(phrase_id_ls, agrees, phrases, cores, topics)
-    return render(request, 'phrases.html', {'comb_lis': comb_lis, 'e': name})
+    return render(request, 'phrases.html', {'comb_lis': comb_lis, 'e': name, 'pid': pid})
+
+
+def update(request):
+    import json
+    info = json.loads(request.body)
+    # print(info)
+
+    idtoken = request.session['uid']
+
+    a = auth.get_account_info(idtoken)
+    a = a['users']
+    a = a[0]
+    a = a['localId']
+    firstname = database.child('users').child(a).child('details').child('firstname').get().val()
+    lastname = database.child('users').child(a).child('details').child('lastname').get().val()
+    name = firstname + " " + lastname
+
+    dbupdate = info['output']
+    phrases_update = dbupdate['phrases']
+    pub = info['pub_id']
+
+    phrase_ids = database.child('users').child(a).child('pubs').child(pub).child('phrases').shallow().get().val()
+    phrase_id_ls = []
+
+    for phrase_id in phrase_ids:
+        phrase_id_ls.append(phrase_id)
+
+    i = 0
+    for phrase in phrases_update:
+        database.child('users').child(a).child('pubs').child(pub).child('phrases').child(i).set(phrase)
+        print(database.child('users').child(a).child('pubs').child(pub).child('phrases').child(i).get().val())
+        i += 1
+
+
+    # print(dbupdate)
+    # print(pub)
+
+    return render(request, 'index.html', {'msg': 'Data Saved.'})
+
