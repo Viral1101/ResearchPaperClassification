@@ -2,6 +2,7 @@ import pyrebase
 from django.shortcuts import render
 from django.contrib.auth import views as auth_views
 from django.http import StreamingHttpResponse
+import Main
 
 config = {
     "apiKey": "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
@@ -15,6 +16,7 @@ config = {
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 database = firebase.database()
+storage = firebase.storage()
 
 
 def login(request):
@@ -102,6 +104,26 @@ def postsignup(request):
 
 
 def create(request):
+    idtoken = request.session['uid']
+
+    a = auth.get_account_info(idtoken)
+    a = a['users']
+    a = a[0]
+    a = a['localId']
+
+    firstname = database.child('users').child(a).child('details').child('firstname').get().val()
+    lastname = database.child('users').child(a).child('details').child('lastname').get().val()
+    name = firstname + " " + lastname
+
+    import json
+    info = json.loads(request.body)
+
+    url = info['url']
+    # pub = info['pub_id']
+
+    print(url)
+
+
     return render(request, 'create.html')
 
 
@@ -129,10 +151,22 @@ def post_create(request):
     time_now = datetime.now(timezone.utc).astimezone(tz)
     millis = int(time.mktime(time_now.timetuple()))
 
+    import json
+    info = json.loads(request.body)
+
+    url = info['url']
+    # pub = info['pub_id']
+
+    print(url)
+
+    data = []
+
+    title = "Temp Name"
+
     print("mili" + str(millis))
     work = request.POST.get('work')
     progress = request.POST.get('progress')
-    url = request.POST.get('url')
+    # url = request.POST.get('url')
     idtoken = request.session['uid']
 
     a = auth.get_account_info(idtoken)
@@ -140,7 +174,7 @@ def post_create(request):
     a = a[0]
     a = a['localId']
 
-    print("info" + str(a))
+    # print("info" + str(a))
 
     # data = {
     #     "work": work,
@@ -148,11 +182,44 @@ def post_create(request):
     #     'url': url
     # }
 
+    # data = '{"title": ' + title + ', "url": ' + url + ',"authors": ' + author_list + ', "phrases": ' + phrase_list + '}'
+
+    authors = {
+        "authors":
+        [
+            "Author1",
+            "Author2",
+            "Author3"
+        ]
+    }
+
+    phrase_list = {
+        "phrases":
+        [
+            {
+                "agree": False,
+                "class": 0,
+                "phrase": "aegouabevqo3uvbaolejbv",
+                "topic": "jibberish"
+            },
+            {
+                "agree": False,
+                "class": 0,
+                "phrase": "24gohajbervaoejg",
+                "topic": "more jibberish"
+            }
+        ]
+    }
+
     data = {
-        'url': url
+        "title": title,
+        "url": url,
+        "authors": authors['authors'],
+        "phrases": phrase_list['phrases']
     }
 
     database.child('users').child(a).child('pubs').child(millis).set(data)
+    # database.child('users').child(a).child('pubs').child(millis).update(authors)
     name = database.child('users').child(a).child('details').child('name').get().val()
 
     return render(request, 'index.html', {'e': name})
@@ -217,6 +284,7 @@ def post_check(request):
     name = database.child('users').child(a).child('details').child('name').get().val()
 
     return render(request, 'post_check.html', {'w': work, 'p': progress, 'd': dat, 'e': name})
+
 
 def publications(request):
 

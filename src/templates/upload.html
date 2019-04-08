@@ -191,7 +191,8 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <form action="/post_create/" method="post">
+                        <!--<form action="/post_create/" method="post">-->
+                          <form action="" method="">
                             {% csrf_token %}
                             <label>
                                 <i class="fas fa-calendar text-gray-300"></i>
@@ -285,31 +286,31 @@
 <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
 <script>
     $(document).on('change', ':file', function() {
-    var input = $(this),
-        numFiles = input.get(0).files ? input.get(0).files.length : 1,
-        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-    input.trigger('fileselect', [numFiles, label]);
+        var input = $(this),
+            numFiles = input.get(0).files ? input.get(0).files.length : 1,
+            label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+        input.trigger('fileselect', [numFiles, label]);
     });
 
     $(document).ready( function() {
-    $(':file').on('fileselect', function(event, numFiles, label) {
-        console.log(numFiles);
-        console.log(label);
-        $('#file-label').text(label);
-        uploadimage();
+        $(':file').on('fileselect', function(event, numFiles, label) {
+            console.log(numFiles);
+            console.log(label);
+            $('#file-label').text(label);
+            uploadimage();
+        });
     });
-});
 
     // Initialize Firebase
     // TODO: Replace with your project's customized code snippet
-        var config = {
-            apiKey: "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
-            authDomain: "researchclassification.firebaseapp.com",
-            databaseURL: "https://researchclassification.firebaseio.com",
-            projectId: "researchclassification",
-            storageBucket: "researchclassification.appspot.com",
-            messagingSenderId: "383247879128",
-        };
+    var config = {
+        apiKey: "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
+        authDomain: "researchclassification.firebaseapp.com",
+        databaseURL: "https://researchclassification.firebaseio.com",
+        projectId: "researchclassification",
+        storageBucket: "researchclassification.appspot.com",
+        messagingSenderId: "383247879128",
+    };
 
     firebase.initializeApp(config);
 
@@ -323,44 +324,72 @@
 
         // Listen for state changes, errors, and completion of the upload.
         uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
-          function(snapshot) {
-            // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
-            var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-            $('#progress-label').text(progress + "%");
-            $('#progress-bar').css('width', progress + '%');
-            console.log('Upload is ' + progress + '% done');
-            switch (snapshot.state) {
-              case firebase.storage.TaskState.PAUSED: // or 'paused'
-                console.log('Upload is paused');
-                break;
-              case firebase.storage.TaskState.RUNNING: // or 'running'
-                console.log('Upload is running');
-                break;
-            }
-          }, function(error) {
+            function(snapshot) {
+                // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+                var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                $('#progress-label').text(progress + "%");
+                $('#progress-bar').css('width', progress + '%');
+                console.log('Upload is ' + progress + '% done');
+                switch (snapshot.state) {
+                    case firebase.storage.TaskState.PAUSED: // or 'paused'
+                        console.log('Upload is paused');
+                        break;
+                    case firebase.storage.TaskState.RUNNING: // or 'running'
+                        console.log('Upload is running');
+                        break;
+                }
+            }, function(error) {
 
-          // A full list of error codes is available at
-          // https://firebase.google.com/docs/storage/web/handle-errors
-          switch (error.code) {
-            case 'storage/unauthorized':
-              // User doesn't have permission to access the object
-              break;
+                // A full list of error codes is available at
+                // https://firebase.google.com/docs/storage/web/handle-errors
+                switch (error.code) {
+                    case 'storage/unauthorized':
+                        // User doesn't have permission to access the object
+                        break;
 
-            case 'storage/canceled':
-              // User canceled the upload
-              break;
+                    case 'storage/canceled':
+                        // User canceled the upload
+                        break;
 
-            case 'storage/unknown':
-              // Unknown error occurred, inspect error.serverResponse
-              break;
-          }
-        }, function() {
-          // Upload completed successfully, now we can get the download URL
-          uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
-            document.getElementById("url").value = downloadURL;
-            console.log('File available at', downloadURL);
-          });
-        });
+                    case 'storage/unknown':
+                        // Unknown error occurred, inspect error.serverResponse
+                        break;
+                }
+            }, function() {
+                // Upload completed successfully, now we can get the download URL
+                uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+                    document.getElementById("url").value = downloadURL;
+
+                    var el = document.getElementsByName("csrfmiddlewaretoken");
+                    csrf_value = el[0].getAttribute("value");
+
+                    function csrfSafeMethod(method) {
+                        // these HTTP methods do not require CSRF protection
+                        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+                    }
+
+                    $.ajaxSetup({
+                        beforeSend: function(xhr, settings) {
+                            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                                xhr.setRequestHeader("X-CSRFToken", csrf_value);
+                            }
+                        }
+                    });
+
+                    $.ajax({
+                        url: '/post_create/',
+                        type: "POST",
+                        dataType: "json",
+                        data: JSON.stringify({url: downloadURL}),
+                        success: function(msg){
+                            alert(msg);
+                        }
+                    });
+
+
+                    console.log('File available at', downloadURL);
+                });
+            });
     };
 
 
