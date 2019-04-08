@@ -24,4 +24,4 @@ The model searches for the highest used n-grams inside the .pdf text and  stores
  
 
  
-The results are returned to the user on the screen and is able to judge by "Accept/Reject" based on their opinion if the classification predicted by the model is suited for the phrase. The user input is recieved as a True and False and entered into a list. The user input list is compared to the predicted list using the resulting output to count the false positives, true negatives, true positives, as well as the calcilate accuracy based on the user's judgment.
+The results are returned to the user on the screen and is then able to judge by a "Accept/Reject" of their opionion of the classification. The user input is recieved as a True and False and entered into a list. The user input list is compared to the predicted list using the resulting output to count the false positives, true negatives, true positives, as well as the calcilate accuracy based on the user's judgment.
