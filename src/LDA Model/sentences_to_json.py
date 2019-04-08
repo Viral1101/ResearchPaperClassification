@@ -64,7 +64,7 @@ class JSON_File :
             "topic" : "{}",
             "agree" : {}
         }} {}
-""".format(sentence.classification , sentence.text , sentence.get_topic() , "false" , "," if i < len(self.sentences) - 1 else "")
+""".format(sentence.classification , sentence.text , sentence.get_topic() , "False" , "," if i < len(self.sentences) - 1 else "")
 
 
         self.data += \
@@ -83,22 +83,27 @@ class JSON_File :
 
         print(self.data)
 
+
+def sentences_classifications_to_json(sentences , classifications) :
+
+    json = JSON_File()
+
+    json.get_sentences(sentences , classifications)
+    json.get_data()
+    json.display_data()
+    return json.data
+    # json.write_data()
+
+'''
 file_name = "example.pdf"
+
+sentences_classifications_to_json(
+
+    Model.get_sentence_list(file_name) ,
+    Model.get_classification_list(file_name)
+
+)
 '''
-sentences = Model.get_sentence_list(file_name)
-classifications = Model.get_classification_list(file_name)
-
-json = JSON_File()
-
-json.get_sentences(sentences , classifications)
-json.get_data()
-json.display_data()
-json.write_data()
-
-'''
-
-
-
 
 
 
