@@ -16,10 +16,9 @@ The model searches for the highest used n-grams inside the .pdf text and  stores
  The top n-gramsare now word embedded, using a word2vac model from pdfs, and put into a vector, the same embedding is done to the three topics previously created by the LDA
  
  ![Screenshot](https://i.imgur.com/CA74LnU.png)<br/>
- <br/>
  
+ The data will all be enetered into the input layer and a Model object will be created. Using its member functions phrases and classifcations are outputted. 
  
- The data will all be enetered into the input layer and a Model object will be created. Using its member functions phrases and classifcations are outputted.
-  ![Screenshot](https://i.imgur.com/XIqUQJp.png)
+ ![Screenshot](https://i.imgur.com/XIqUQJp.png)
  
 The results are returned to the user on the screen and is then able to judge by a "Accept/Reject" of their opionion of the classification. The user input is recieved as a True and False and entered into a list. The user input list is compared to the predicted list using the resulting output to count the false positives, true negatives, true positives, as well as the calcilate accuracy based on the user's judgment.
