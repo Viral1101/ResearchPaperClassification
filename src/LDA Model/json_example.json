@@ -1,0 +1,4618 @@
+
+ {
+    "phrases" :
+    [
+
+        {
+            "class" : 0
+            "phrase": "ILC Dover, Inc.1994Space Suit EvolutionFrom Custom Tailored To Off-The-RackApollo Space Suits Were Custom TailoredThe Apollo space suit was basically a one-piece suit.",
+            "topic" : "ILC Dover, Inc.1994Space Suit EvolutionFrom Custom Tailored To Off-The-RackApollo Space Suits Were Custom TailoredThe Apollo space suit basically one-piece suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Each suit was made to fit (custom tailored) each astronaut.Each Apollo mission required fifteen (15) suits to support the mission.",
+            "topic" : "Each suit made fit (custom tailored) astronaut.Each Apollo mission required fifteen (15) suits support mission. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The main, or prime, three-man crew each
+had three suits: I for flight; 1 for training; and 1 as a flight back-up in case something happened to their flight
+suit, thus a total of 9 suits for the prime crew.",
+            "topic" : "The main, prime, three-man crew each
+had three suits: I flight; 1 training; 1 flight back-up case something happened flight
+suit, thus total 9 suits prime crew. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The back-up three-man crew each had two suits: I for flight and I
+for training.",
+            "topic" : "The back-up three-man crew two suits: I flight I
+for training. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The astronaut corps at that time included between 25 and 27 astronauts.Shuttle Space Suits Are "Off-The-Rack"The Shuttle astronaut corps includes about 120 men and women.",
+            "topic" : "The astronaut corps time included 25 27 astronauts.Shuttle Space Suits Are "Off-The-Rack"The Shuttle astronaut corps includes 120 men women. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Shuttle space suit, to accommodate thelarge number of astronauts with widely varying body sizes, was designed to be made up of many interchangeable
+parts.",
+            "topic" : "The Shuttle space suit, accommodate thelarge number astronauts widely varying body sizes, designed made many interchangeable
+parts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These parts (upper and lower torso's, arms, etc.)",
+            "topic" : "These parts (upper lower torso's, arms, etc.) ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "are fabricated at ILC in different sizes, inspected/tested,
+then shipped to Johnson Space Center (JSC) where they are inventoried for the astronaut corps.ILC Dover has a staff of about 15 people who work on-site at JSC.",
+            "topic" : "fabricated ILC different sizes, inspected/tested,
+then shipped Johnson Space Center (JSC) inventoried astronaut corps.ILC Dover staff 15 people work on-site JSC. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This staff is primarily responsible for thecontrol, use, and maintenance of the suit components produced in Frederica after they arrive at JSC.",
+            "topic" : "This staff primarily responsible thecontrol, use, maintenance suit components produced Frederica arrive JSC. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The staff
+also develops and executes the crew training schedules.",
+            "topic" : "The staff
+also develops executes crew training schedules. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This involves everything from taking measurements and
+conducting fitchecks to de-stow and post-flight inspection/test of the space suit.Measuring Up For ShuttleAt JSC, the body measurements of each Shuttle astronaut are taken and recorded, then the measurements areplotted against the size ranges available for each space suit component.",
+            "topic" : "This involves everything taking measurements and
+conducting fitchecks de-stow post-flight inspection/test space suit.Measuring Up For ShuttleAt JSC, body measurements Shuttle astronaut taken recorded, measurements areplotted size ranges available space suit component. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suit components are then assembled
+and the astronaut is "fitchecked."",
+            "topic" : "The suit components assembled
+and astronaut "fitchecked." ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Once the astronaut is satisfied with the fit, then a training suit is assembled
+using duplicate sized components.",
+            "topic" : "Once astronaut satisfied fit, training suit assembled
+using duplicate sized components. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The astronaut will use this assembly for many mining events.",
+            "topic" : "The astronaut use assembly many mining events. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A flight suit is
+then assembled using the same size components and the astronaut will "checkout" this suit during chamber
+testing and other test events.Training suits are usually assembled nine months prior to flight and flight suits are usually assembled four monthsprior to flight.Pack Your Bags!Just before a Shuttle mission, the suits designated for flight are tested, cleaned, and packed at JSC.",
+            "topic" : "A flight suit is
+then assembled using size components astronaut "checkout" suit chamber
+testing test events.Training suits usually assembled nine months prior flight flight suits usually assembled four monthsprior flight.Pack Your Bags!Just Shuttle mission, suits designated flight tested, cleaned, packed JSC. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Then they areflown to Kennedy Space Center (KSC) and stowed on the orbiter.",
+            "topic" : "Then areflown Kennedy Space Center (KSC) stowed orbiter. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "After each flight the suits are returned to JSC
+for post-flight processing and reuse.ILC Dover, Inc.1994ILC Dover, Inc.1994Questions & Answers About Space Suits1.I would like to know if you are making old stuff into new stuff?No.",
+            "topic" : "After flight suits returned JSC
+for post-flight processing reuse.ILC Dover, Inc.1994ILC Dover, Inc.1994Questions & Answers About Space Suits1.I would like know making old stuff new stuff?No. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Materials used in making the space suits are purchased from other manufacturers and we beginbuilding from scratch.",
+            "topic" : "Materials used making space suits purchased manufacturers beginbuilding scratch. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Apollo suits that were on the moon were designed for a special purpose and
+were tailored for each astronaut.",
+            "topic" : "The Apollo suits moon designed special purpose and
+were tailored astronaut. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The new suits used on the Shuttle are not tailored and are designed for
+special features that were not required for the Apollo suit.2.When did you start making astronaut suits?ILC started designing suits in 1961; started making test and prototype suits in 1964; and starteddelivering suits for use by the Apollo astronauts in 1966.3.How thick is the space suit?Approximately 3/16" thick, 11 layers of materials.4.Do you have astronaut suits there?",
+            "topic" : "The new suits used Shuttle tailored designed for
+special features required Apollo suit.2.When start making astronaut suits?ILC started designing suits 1961; started making test prototype suits 1964; starteddelivering suits use Apollo astronauts 1966.3.How thick space suit?Approximately 3/16" thick, 11 layers materials.4.Do astronaut suits there? ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "How many do you have?",
+            "topic" : "How many have? ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "How many sizes do you make?",
+            "topic" : "How many sizes make? ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Do
+you make space suits by the dozen, one at a time, or what?ILC no longer builds custom-made suits for each astronaut.",
+            "topic" : "Do
+you make space suits dozen, one time, what?ILC longer builds custom-made suits astronaut. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We now build separable components (arms,legs, boots, etc.)",
+            "topic" : "We build separable components (arms,legs, boots, etc.) ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "that attach together which provides many sizes.",
+            "topic" : "attach together provides many sizes. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "After a suit has completed its mission, it
+is disassembled.",
+            "topic" : "After suit completed mission, it
+is disassembled. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Some of its parts are then mated with other parts to build another suit of a different size.",
+            "topic" : "Some parts mated parts build another suit different size. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Once these component parts have been made, they are shipped to NASA's Johnson Space Center near
+Houston, Texas.",
+            "topic" : "Once component parts made, shipped NASA's Johnson Space Center near
+Houston, Texas. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We do have a certification suit here, which is manned (worn) at ILC during a space
+walk.",
+            "topic" : "We certification suit here, manned (worn) ILC space
+walk. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The number of components made depends upon the number of flights scheduled at a given time andthe number of people that would wear a particular size.5.How do you make astronaut suits and what material do you use?The suits are basically made by sewing and cementing various materials together, and then attachingmetal parts that let you join the different components together.",
+            "topic" : "The number components made depends upon number flights scheduled given time andthe number people would wear particular size.5.How make astronaut suits material use?The suits basically made sewing cementing various materials together, attachingmetal parts let join different components together. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Suit materials include: ortho-fabric,
+aluminized mylar, neoprene-coated nylon, dacron, urethane-coated nylon, tricot, nylon/spandex, stainless
+steel, and high strength composite materials.6.How much does it cost to make a space suit?It is difficult to express the cost of the suit; not all parts are made by ILC, It has been reported in the
+news media that the spare suit costs two million dollars.",
+            "topic" : "Suit materials include: ortho-fabric,
+aluminized mylar, neoprene-coated nylon, dacron, urethane-coated nylon, tricot, nylon/spandex, stainless
+steel, high strength composite materials.6.How much cost make space suit?It difficult express cost suit; parts made ILC, It reported the
+news media spare suit costs two million dollars. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This does not mean that each time the suit is
+used it costs two million dollars.",
+            "topic" : "This mean time suit is
+used costs two million dollars. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "If you would never use the parts for another astronaut or another
+mission, then you would have a one-time use and the cost could probably be as high as what the news
+media says it is.ILC Dover, Inc.19947.How long does it take to make a space suit?If all the parts and materials were available for use by one person.",
+            "topic" : "If would never use parts another astronaut another
+mission, would one-time use cost could probably high news
+media says is.ILC Dover, Inc.19947.How long take make space suit?If parts materials available use one person. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "who possessed all the different skillsrequired, it would take that person almost 2-1/2 years to produce a space suit (roughly about 5,000
+man-hours of work).",
+            "topic" : "possessed different skillsrequired, would take person almost 2-1/2 years produce space suit (roughly 5,000
+man-hours work). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "With the complement of personnel and various skills at ILC Dover, a suit can be
+produced in three months.8.What color do they have to be?The reason that the suits are white is because white reflects heat in space the same as it does here onearth.",
+            "topic" : "With complement personnel various skills ILC Dover, suit be
+produced three months.8.What color be?The reason suits white white reflects heat space onearth. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Temperatures in direct sunlight in space can be over 275 degrees Fahrenheit.9.When the astronauts go into space once and then when they go again, do they wear the same
+space suits?The astronauts will wear the same size component parts as the first mission unless body dimensions havechanged (for example, gained weight).10.How many space suits have you made?ILC has manufactured enough separable components to assemble 51 individual Shuttle space suits.",
+            "topic" : "Temperatures direct sunlight space 275 degrees Fahrenheit.9.When astronauts go space go again, wear same
+space suits?The astronauts wear size component parts first mission unless body dimensions havechanged (for example, gained weight).10.How many space suits made?ILC manufactured enough separable components assemble 51 individual Shuttle space suits. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Some
+of these suits are used for the astronauts' training here on earth.",
+            "topic" : "Some
+of suits used astronauts' training earth. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These training suits are not intended for
+flight.11.Have you made any changes in the suits?Since ILC started developing prototype space suits in 1964, there have been many, many changes based
+on the usage of the suit.",
+            "topic" : "These training suits intended for
+flight.11.Have made changes suits?Since ILC started developing prototype space suits 1964, many, many changes based
+on usage suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Apollo suit, for example, was designed for only one mission and it had to be
+lightweight to allow the astronauts to do work on the moon.",
+            "topic" : "The Apollo suit, example, designed one mission be
+lightweight allow astronauts work moon. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Shuttle suit, however, is designed only
+to work in zero gravity where the astronaut does not feel the weight of the suit, and it is designed to last
+for up to 15 years on many missions.For these reasons, the Shuttle suit is much heavier than the Apollo suit was.",
+            "topic" : "The Shuttle suit, however, designed only
+to work zero gravity astronaut feel weight suit, designed last
+for 15 years many missions.For reasons, Shuttle suit much heavier Apollo suit was. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Apollo suit, including thelife support backpack, weighed about 180 pounds.",
+            "topic" : "The Apollo suit, including thelife support backpack, weighed 180 pounds. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Shuttle suit, including the life support system,
+weighs about 310 pounds.",
+            "topic" : "The Shuttle suit, including life support system,
+weighs 310 pounds. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suit itself weighs about 110 pounds.",
+            "topic" : "The suit weighs 110 pounds. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "If an astronaut weighing 175 pounds
+wears the complete suit, the total weight is then about 485 pounds (310 + 175 =495).Changes to the design of the space suit are constantly happening as we learn more about living andworking in space.ILC Dover, Inc.199412.Is the suit too heavy for training on earth?When training on earth, the astronauts use special lightweight parts and they do a lot of training in water(a large pool called a Weightless Environment Test Facility).",
+            "topic" : "If astronaut weighing 175 pounds
+wears complete suit, total weight 485 pounds (310 + 175 =495).Changes design space suit constantly happening learn living andworking space.ILC Dover, Inc.199412.Is suit heavy training earth?When training earth, astronauts use special lightweight parts lot training water(a large pool called Weightless Environment Test Facility). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "When the suit is pressurized with breathingair and the astronaut goes into the water, it is something like being in a balloon and floating on the water.",
+            "topic" : "When suit pressurized breathingair astronaut goes water, something like balloon floating water. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Weights are added around the waist so the astronaut will sink and stay under water.",
+            "topic" : "Weights added around waist astronaut sink stay water. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This gives the same
+feeling of weightlessness the astronaut would feel in space.13.How did you find out what cloth to use for the suits?a) By engineers establishing design limits (how much heat and cold the hostile environment of spacepresents).b) Again, by engineers calculating how well various materials will withstand the above established designlimits.c) By engineers calculating how long the materials will last when the materials are sewn/cementedtogether, folded and creased, and moved to different positions by bending or rotating the shoulder,
+elbow, wrist, waist, hip, knee, and ankle.d) By many hours of testing material samples.14.Do you have to make changes in the suits for women astronauts?There is no difference in a male or female suit, though the female usually requires a smaller size.15.How many years has your business been open?",
+            "topic" : "This gives same
+feeling weightlessness astronaut would feel space.13.How find cloth use suits?a) By engineers establishing design limits (how much heat cold hostile environment spacepresents).b) Again, engineers calculating well various materials withstand established designlimits.c) By engineers calculating long materials last materials sewn/cementedtogether, folded creased, moved different positions bending rotating shoulder,
+elbow, wrist, waist, hip, knee, ankle.d) By many hours testing material samples.14.Do make changes suits women astronauts?There difference male female suit, though female usually requires smaller size.15.How many years business open? ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Since 1947.16.How many people do you have working for you?",
+            "topic" : "Since 1947.16.How many people working you? ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We have approximately 400 employees in Frederica, Delaware and 15 employees that work at theJohnson Space Center near Houston, Texas.",
+            "topic" : "We approximately 400 employees Frederica, Delaware 15 employees work theJohnson Space Center near Houston, Texas. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "About 60 of the Frederica employees am involved in the
+space suit program.17.Who was the first space suit for?The first suit worn in spare was made for astronaut Alan Shepard when he flew on May 5, 1961 duringProject Mercury.",
+            "topic" : "About 60 Frederica employees involved the
+space suit program.17.Who first space suit for?The first suit worn spare made astronaut Alan Shepard flew May 5, 1961 duringProject Mercury. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This suit was not made by RZ.",
+            "topic" : "This suit made RZ. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The first suit worn on the moon was made by ILC for
+Apollo astronaut Neil Armstrong's July 20, 1969 moonwalk.",
+            "topic" : "The first suit worn moon made ILC for
+Apollo astronaut Neil Armstrong's July 20, 1969 moonwalk. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The first EVA using suits for the Space
+Shuttle was performed by astronauts Story Musgrave and Donald Peterson on April 7.",
+            "topic" : "The first EVA using suits Space
+Shuttle performed astronauts Story Musgrave Donald Peterson April 7. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "1983.ILC Dover, Inc.199418.How much air does the space suit hold?The amount of air in the suit will vary, depending upon the size of the suit.",
+            "topic" : "1983.ILC Dover, Inc.199418.How much air space suit hold?The amount air suit vary, depending upon size suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The extra large Shuttle suit,without anybody in it, holds 5.42 cubic feet of air; the extra small size holds 4.35 cubic feet.",
+            "topic" : "The extra large Shuttle suit,without anybody it, holds 5.42 cubic feet air; extra small size holds 4.35 cubic feet. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "With an
+astronaut in the suit, the amount of free space remaining in the suit is 2 cubic feet.19.How long does 2 space walk- (EVA) last?During an Extravehicular Activity, or EVA (sometimes called a space walk), the astronaut has about 7
+hours, plus or minus a half-hour, to complete his or her work.",
+            "topic" : "With an
+astronaut suit, amount free space remaining suit 2 cubic feet.19.How long 2 space walk- (EVA) last?During Extravehicular Activity, EVA (sometimes called space walk), astronaut 7
+hours, plus minus half-hour, complete work. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This time is dependent on the rate the
+astronaut is using the available air and water from the backpack.",
+            "topic" : "This time dependent rate the
+astronaut using available air water backpack. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The harder the astronaut works the
+faster the air and water are used.",
+            "topic" : "The harder astronaut works the
+faster air water used. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The backpack also has a 30-minute emergency air supply that can be
+used to safely get the astronaut back inside the orbiter.20.Is ILC responsible for the entire Shuttle space suit?No.",
+            "topic" : "The backpack also 30-minute emergency air supply be
+used safely get astronaut back inside orbiter.20.Is ILC responsible entire Shuttle space suit?No. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Actually Hamilton Standard of Windsor Locks, Connecticut is NASA's "prime contractor. "",
+            "topic" : "Actually Hamilton Standard Windsor Locks, Connecticut NASA's "prime contractor. " ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "They are
+responsible for the Extravehicular Mobility Unit, or EMU (the entire space suit).",
+            "topic" : "They are
+responsible Extravehicular Mobility Unit, EMU (the entire space suit). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Hamilton Standard
+provides the Portable Life Support System, the Display and Control Module, and several other
+components.",
+            "topic" : "Hamilton Standard
+provides Portable Life Support System, Display Control Module, several other
+components. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "As a subcontractor to Hamilton Standard, ILC furnishes the Space Suit Assembly which
+includes a Liquid Cooling and Ventilation Garment, Boots, Lower Torso, Arms, Gloves, and the Thermal
+Micrometeoroid Garment (TMG) that covers the entire EMU.21.What do you think you will make in the year 2000?We at ILC hope to still be making space suits for Space Shuttle and Space Station astronauts.",
+            "topic" : "As subcontractor Hamilton Standard, ILC furnishes Space Suit Assembly which
+includes Liquid Cooling Ventilation Garment, Boots, Lower Torso, Arms, Gloves, Thermal
+Micrometeoroid Garment (TMG) covers entire EMU.21.What think make year 2000?We ILC hope still making space suits Space Shuttle Space Station astronauts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We alsohope to be designing and developing new suits for future astronauts going to the moon, Mars, and
+beyond!THE NEW APOLLO AND SKYLABSPACE SUITSILC Industries, Inc., through itsDover/Frederica Division in Delaware, Is the
+prime NASA contractor for design,
+development, and manufacture of space suits
+for the Apollo and Skylab Programs.",
+            "topic" : "We alsohope designing developing new suits future astronauts going moon, Mars, and
+beyond!THE NEW APOLLO AND SKYLABSPACE SUITSILC Industries, Inc., itsDover/Frederica Division Delaware, Is the
+prime NASA contractor design,
+development, manufacture space suits
+for Apollo Skylab Programs. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These
+suits afford the necessary safety, comfort and
+mobility to the astronauts during Apollo and
+Skylab missions.Space suit development is a tribute toAmerican Industry.",
+            "topic" : "These
+suits afford necessary safety, comfort and
+mobility astronauts Apollo and
+Skylab missions.Space suit development tribute toAmerican Industry. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "For Instance, Du Pont, the
+world's largest chemical corporation,
+developed materials used in 20 of the 21
+layers In the ILC Industries space suit.",
+            "topic" : "For Instance, Du Pont, the
+world's largest chemical corporation,
+developed materials used 20 21
+layers In ILC Industries space suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "None of
+these materials were developed with the moon
+in mind.",
+            "topic" : "None of
+these materials developed moon
+in mind. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Some were new materials, like
+"Kapton" film.",
+            "topic" : "Some new materials, like
+"Kapton" film. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Others, such as nylon, were
+discovered more than thirty years ago by
+scientists who had no Idea of the distance the
+results of their research would travel some
+day.",
+            "topic" : "Others, nylon, were
+discovered thirty years ago by
+scientists Idea distance the
+results research would travel some
+day. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Achievements In science are often put to
+use in unexpected places.",
+            "topic" : "Achievements In science often put to
+use unexpected places. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In the case of the
+space suit, materials which were developed for
+use on earth ultimately found a place on the
+moon.The space suit is an air-tight anthropomorphicstructure called the Pressure Garment
+Assembly or PGA.",
+            "topic" : "In case the
+space suit, materials developed for
+use earth ultimately found place the
+moon.The space suit air-tight anthropomorphicstructure called Pressure Garment
+Assembly PGA. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In the space suit, the
+astronaut is protected from the extreme range
+of temperatures, the near vacuum of space
+and the micrometeoroid flux density that might
+be encountered in space or on the moon's
+surface.",
+            "topic" : "In space suit, the
+astronaut protected extreme range
+of temperatures, near vacuum space
+and micrometeoroid flux density might
+be encountered space moon's
+surface. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Without this protection, a man could
+not live, and would die within seconds after
+being exposed to such hostile environments.There are two basic configurations of the suitused to support Apollo Missions: an In-
+travehicular (IV) configuration designated as
+the CMP A7LB PGA, and an Extravehicular
+(EV) configuration identified as the EV A7LB
+PGA.",
+            "topic" : "Without protection, man could
+not live, would die within seconds after
+being exposed hostile environments.There two basic configurations suitused support Apollo Missions: In-
+travehicular (IV) configuration designated as
+the CMP A7LB PGA, Extravehicular
+(EV) configuration identified EV A7LB
+PGA. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The CMP A7LB pressure garment con-
+figuration is worn by the Command ModulePilot.",
+            "topic" : "The CMP A7LB pressure garment con-
+figuration worn Command ModulePilot. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EV A&B configuration is worn by the
+Crew Commander and the Lunar Module Pilot.",
+            "topic" : "The EV A&B configuration worn the
+Crew Commander Lunar Module Pilot. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A slightly modified version of the EV A7LB
+PGA is planned for use during Skylab
+missions.The complete Extravehicular Mobility Unitsused for Apollo and Skylab missions are
+shown on the front cover.",
+            "topic" : "A slightly modified version EV A7LB
+PGA planned use Skylab
+missions.The complete Extravehicular Mobility Unitsused Apollo Skylab missions are
+shown front cover. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Extravehicular
+Mobility Unit or EMU configured for Skylab
+missions, shown in the foreground, is the most
+current space suit configuration for use in
+space programs.The pressure garment assembly interfaceswith the spacecraft environmental control
+system, or the Apollo Portable Life Support
+System (PLSS) or the Skylab Astronaut Life
+Support Assembly (ALSA).",
+            "topic" : "The Extravehicular
+Mobility Unit EMU configured Skylab
+missions, shown foreground, most
+current space suit configuration use in
+space programs.The pressure garment assembly interfaceswith spacecraft environmental control
+system, Apollo Portable Life Support
+System (PLSS) Skylab Astronaut Life
+Support Assembly (ALSA). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The pressure
+garment is operational at differential pressures
+of 3.70 to 3.90 pounds per square Inch; In
+temperatures of -290 to +310 degrees
+Fahrenheit for Apollo missions or -180 to +277
+degrees Fahrenheit for Skylab missions; and
+In micrometeoroid flux densities normally
+expected within the lunar orbit perimeter about
+the earth or a 300,000 mile orbit.",
+            "topic" : "The pressure
+garment operational differential pressures
+of 3.70 3.90 pounds per square Inch; In
+temperatures -290 +310 degrees
+Fahrenheit Apollo missions -180 +277
+degrees Fahrenheit Skylab missions; and
+In micrometeoroid flux densities normally
+expected within lunar orbit perimeter about
+the earth 300,000 mile orbit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The pressure
+garment permits low torque body movements
+for operating spacecraft controls and specially
+designed devices required for space
+exploration or traversing the lunar surface.When pressurized, the differential pressuresImpose stress or tension on the suit wall.",
+            "topic" : "The pressure
+garment permits low torque body movements
+for operating spacecraft controls specially
+designed devices required space
+exploration traversing lunar surface.When pressurized, differential pressuresImpose stress tension suit wall. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+"soft" suit becomes very rigid or stiff, and
+almost impossible to bend except in those
+areas where specially designed joints are
+provided to accommodate normal body flexure.",
+            "topic" : "The
+"soft" suit becomes rigid stiff, and
+almost impossible bend except those
+areas specially designed joints are
+provided accommodate normal body flexure. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "An example of this stiffness: inflate a large
+cylindrical balloon or the inner tube of a tire,
+the balloon or tube will become very stilt and
+almost Impossible to twist or bend.",
+            "topic" : "An example stiffness: inflate large
+cylindrical balloon inner tube tire,
+the balloon tube become stilt and
+almost Impossible twist bend. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Without
+these specially developed joints for the space
+suit, It would be virtually impossible for the
+astronaut to do useful work on the moon's
+surface.",
+            "topic" : "Without
+these specially developed joints space
+suit, It would virtually impossible the
+astronaut useful work moon's
+surface. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These special joints are installed Into
+the CMP A7LB suit at the knees, wrist,
+shoulders, elbows, ankles, and thighs.",
+            "topic" : "These special joints installed Into
+the CMP A7LB suit knees, wrist,
+shoulders, elbows, ankles, thighs. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EVA7LB suit was further modified to includespecial joints at the neck and waist to allow
+bending movements in those areas.",
+            "topic" : "The EVA7LB suit modified includespecial joints neck waist allow
+bending movements areas. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This
+added suit flexibility permits the astronaut to
+conserve his energy, reduce fatigue and to
+work for longer periods on the lunar surface.",
+            "topic" : "This
+added suit flexibility permits astronaut to
+conserve energy, reduce fatigue to
+work longer periods lunar surface. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Normal body movements in the suit cause the
+suit joints to bend.",
+            "topic" : "Normal body movements suit cause the
+suit joints bend. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The force required to flex
+these joints is applied against the inner suit
+wall or gas retaining layer.",
+            "topic" : "The force required flex
+these joints applied inner suit
+wall gas retaining layer. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "To preclude direct
+wear on the gas-retaining layer, the suit is
+fitted with an inner scuff layer of nylon fabric.Entrance Into the suit is made through restraint
+and pressure- sealing zippers.",
+            "topic" : "To preclude direct
+wear gas-retaining layer, suit is
+fitted inner scuff layer nylon fabric.Entrance Into suit made restraint
+and pressure- sealing zippers. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The entrance
+opening used In the CMP A7LB assembly ex-
+tends down the center of the back, from the
+neck area to the front crotch area.",
+            "topic" : "The entrance
+opening used In CMP A7LB assembly ex-
+tends center back, the
+neck area front crotch area. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EV
+AMB suit employs entrance zippers that extend
+from the let t side of the waist, around the back
+to the right side of the waist, and diagonally up
+to the right chest area of the suit.",
+            "topic" : "The EV
+AMB suit employs entrance zippers extend
+from let side waist, around back
+to right side waist, diagonally up
+to right chest area suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Routing ofthe zippers in the EV A7LB suit was changed
+from that employed in the CMP model to
+accommodate the new neck and waist joints.",
+            "topic" : "Routing ofthe zippers EV A7LB suit changed
+from employed CMP model to
+accommodate new neck waist joints. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The entrance zippers can be operated by the
+crewman if required, but zipper actuation is
+normally done with the assistance of a fellow
+crewmember.There are two protective envelopes employed
+in the space suit: an Inner pressurizable
+envelope, and an outer thermal and
+micrometeoroid protective envelope.",
+            "topic" : "The entrance zippers operated the
+crewman required, zipper actuation is
+normally done assistance fellow
+crewmember.There two protective envelopes employed
+in space suit: Inner pressurizable
+envelope, outer thermal and
+micrometeoroid protective envelope. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The inner
+pressurizable envelope Is called the Torso and
+Limb Suit Assembly (TLSA); this assembly
+Interfaces with a detachable helmet, and a pair
+of removable gloves.",
+            "topic" : "The inner
+pressurizable envelope Is called Torso and
+Limb Suit Assembly (TLSA); assembly
+Interfaces detachable helmet, pair
+of removable gloves. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The outer envelope used
+for thermal and micrometeoroid protection
+Includes an Integrated Thermal
+Micrometeoroid Garment (ITMG), a Lunar
+Extravehicular Visor Assembly (LEVA) or
+Skylab Extravehicular Visor Assembly (SEVA),and a pair of lunar boots that are used forApollo Lunar missions only.The torso and limb suit consists of an innercomfort liner, a rubber-coated nylon bladder,
+and an outer nylon restraint structure with the
+exception of the shoulder, elbow, wrist, thigh
+and knee joints.",
+            "topic" : "The outer envelope used
+for thermal micrometeoroid protection
+Includes Integrated Thermal
+Micrometeoroid Garment (ITMG), Lunar
+Extravehicular Visor Assembly (LEVA) or
+Skylab Extravehicular Visor Assembly (SEVA),and pair lunar boots used forApollo Lunar missions only.The torso limb suit consists innercomfort liner, rubber-coated nylon bladder,
+and outer nylon restraint structure the
+exception shoulder, elbow, wrist, thigh
+and knee joints. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These joints are single wall,
+integrated restraint and bladder, bellows-likestructures.The Thermal Micrometeoroid Garment (ITMG)Is composed of an inner layer of rubber-coated
+nylon, alternate layers of aluminized material
+separated by a low-heat-conducting spacer
+fabric, and an outer layer of fire and abrasion
+resistant material.",
+            "topic" : "These joints single wall,
+integrated restraint bladder, bellows-likestructures.The Thermal Micrometeoroid Garment (ITMG)Is composed inner layer rubber-coated
+nylon, alternate layers aluminized material
+separated low-heat-conducting spacer
+fabric, outer layer fire abrasion
+resistant material. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This thermal cross section
+employs the same Insulation principle as the
+"Thermos" bottle when the suit is exposed to
+the near vacuum of space.The Lunar Extravehicular Visor Assembly(LEVA) or Skylab Extravehicular Visor
+Assembly (SEVA) includes a shell assembly
+that fits over the helmet, and that clamps
+around its base.",
+            "topic" : "This thermal cross section
+employs Insulation principle the
+"Thermos" bottle suit exposed to
+the near vacuum space.The Lunar Extravehicular Visor Assembly(LEVA) Skylab Extravehicular Visor
+Assembly (SEVA) includes shell assembly
+that fits helmet, clamps
+around base. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Two visors, two side-
+eyeshades, and a center eyeshade are
+supported by the shell.",
+            "topic" : "Two visors, two side-
+eyeshades, center eyeshade are
+supported shell. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The outer sun visor
+employs a gold coating that reflects solar heat
+and light from its surface.",
+            "topic" : "The outer sun visor
+employs gold coating reflects solar heat
+and light surface. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The inner protective
+visor is transparent, although it includes an
+Inner coating that retains heat being emitted
+from the face.",
+            "topic" : "The inner protective
+visor transparent, although includes an
+Inner coating retains heat emitted
+from face. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The protective visor is used
+without the sun visor during operations in
+shadow areas where visibility through the dark
+sun visor would not be adequate.",
+            "topic" : "The protective visor used
+without sun visor operations in
+shadow areas visibility dark
+sun visor would adequate. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The visors
+and eyeshades are adjustable and can be
+moved to positions selected by the crewman
+for his comfort and safety.The Lunar Boots are slip-on assemblies thatinclude a cross section of materials similar to
+those In the ITMG.",
+            "topic" : "The visors
+and eyeshades adjustable be
+moved positions selected crewman
+for comfort safety.The Lunar Boots slip-on assemblies thatinclude cross section materials similar to
+those In ITMG. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "There are additional layers
+of materials used in the boot sole as necessary
+to reduce the transfer of heat from the lunar
+surface to the foot.",
+            "topic" : "There additional layers
+of materials used boot sole necessary
+to reduce transfer heat lunar
+surface foot. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Metal-woven fabric or
+"Chromel-R" forms the outer shell of the boots
+to resist high lunar surface temperatures andsurface abrasion.",
+            "topic" : "Metal-woven fabric or
+"Chromel-R" forms outer shell boots
+to resist high lunar surface temperatures andsurface abrasion. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The outer structure of the
+boots in the sole consists of silicone rubber
+that is sewn to the outer metal fabric shell and
+affords Improved wear and thermal protection
+to the boots.For each PGA, there are two pairs of glovesused to support Apollo and Skylab missions:
+Intravehicular (IV) Gloves and Extravehicular
+(EV) Gloves.",
+            "topic" : "The outer structure the
+boots sole consists silicone rubber
+that sewn outer metal fabric shell and
+affords Improved wear thermal protection
+to boots.For PGA, two pairs glovesused support Apollo Skylab missions:
+Intravehicular (IV) Gloves Extravehicular
+(EV) Gloves. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The IV Glove is a single-wall
+restraint and bladder structure formed to fit the
+crewman's hand.",
+            "topic" : "The IV Glove single-wall
+restraint bladder structure formed fit the
+crewman's hand. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "For scuff protection and
+added structural support, an outer gauntlet and
+palm restraint system is fitted over the glove.",
+            "topic" : "For scuff protection and
+added structural support, outer gauntlet and
+palm restraint system fitted glove. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The palm restraint affords Improved hand
+dexterity for operating spacecraft controls and
+special devices.",
+            "topic" : "The palm restraint affords Improved hand
+dexterity operating spacecraft controls and
+special devices. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EV Glove Includes an IV
+Glove that Is fitted with an outer thermal glove
+that employs a similar cross section to that of
+the ITMG.",
+            "topic" : "The EV Glove Includes IV
+Glove Is fitted outer thermal glove
+that employs similar cross section of
+the ITMG. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "For abrasion and thermal protection,
+the outer shell is constructed of metal-woven
+fabric, and the fingertips are fitted with silicone
+rubber caps.",
+            "topic" : "For abrasion thermal protection,
+the outer shell constructed metal-woven
+fabric, fingertips fitted silicone
+rubber caps. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The outer thermal glove extends
+well back over the IV glove-TLSA juncture.Gaseous oxygen is circulated through the suitby the PLSS (backpack) or ALSA, or the
+spacecraft environmental control system for
+respiration, pressurization, and ventilation
+purposes.",
+            "topic" : "The outer thermal glove extends
+well back IV glove-TLSA juncture.Gaseous oxygen circulated suitby PLSS (backpack) ALSA, the
+spacecraft environmental control system for
+respiration, pressurization, ventilation
+purposes. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The oxygen is directed to the helmet
+from Inlet gas connectors on the suit, down
+over the body, to the arm and leg extremities,
+and then is directed through ducts to the
+exhaust gas connectors.",
+            "topic" : "The oxygen directed helmet
+from Inlet gas connectors suit, down
+over body, arm leg extremities,
+and directed ducts the
+exhaust gas connectors. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Impurities are
+removed from the gas stream as it passes
+through the spacecraft environmental control
+system or portable life support system, and
+then is recirculated through the suit.The ventilation system removes body heatfrom within the suit during lV operations, or
+when free space EV activities are performed
+remote from the spacecraft.",
+            "topic" : "The Impurities are
+removed gas stream passes
+through spacecraft environmental control
+system portable life support system, and
+then recirculated suit.The ventilation system removes body heatfrom within suit lV operations, or
+when free space EV activities performed
+remote spacecraft. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "During lunar
+surface excursions the metabolic heat
+generated by the body exceeds the capability
+of the ventilation system, so a liquid cooling
+system Is employed which removes the major
+portion of body heat from within the PGA;thereby reducing fatigue as a result of bodydehydration through perspiration.",
+            "topic" : "During lunar
+surface excursions metabolic heat
+generated body exceeds capability
+of ventilation system, liquid cooling
+system Is employed removes major
+portion body heat within PGA;thereby reducing fatigue result bodydehydration perspiration. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Liquid
+Cooling Garment (LCG) consists of a network
+of polyvinyl tubing that is supported by
+spandex fabric.",
+            "topic" : "The Liquid
+Cooling Garment (LCG) consists network
+of polyvinyl tubing supported by
+spandex fabric. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The garment is worn next to
+the skin and covers the entire body exclusive
+of the head and hands.",
+            "topic" : "The garment worn next to
+the skin covers entire body exclusive
+of head hands. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A liquid coolant or
+water is circulated through the tubing from the
+portable life support system.",
+            "topic" : "A liquid coolant or
+water circulated tubing the
+portable life support system. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In the suit, heat is
+transferred from the body to the liquid through
+the tubing wall, and in the portable life support
+system, the heat is removed from the liquid
+before it is re-circulated back to the LCG.Providing the spacesuit for the Apollo & SkylabPrograms is just one part that ILC plays in the
+role of protecting man from hazardous
+environments.",
+            "topic" : "In suit, heat is
+transferred body liquid through
+the tubing wall, portable life support
+system, heat removed liquid
+before re-circulated back LCG.Providing spacesuit Apollo & SkylabPrograms one part ILC plays the
+role protecting man hazardous
+environments. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC Industries, Inc. is proud of
+its role in the space program and vigorously
+supports the ever-expanding field of
+aerospace technology.",
+            "topic" : "ILC Industries, Inc. proud of
+its role space program vigorously
+supports ever-expanding field of
+aerospace technology. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We have over twenty
+years of experience in research, development,
+and manufacture of air-inflated assemblies,
+pressure vessels and life support systems.",
+            "topic" : "We twenty
+years experience research, development,
+and manufacture air-inflated assemblies,
+pressure vessels life support systems. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This experience has provided a sound base for
+our continuing research, development and
+design of aerospace life support equipment,
+and has given ILC its place as the leader in
+this field.Although the Apollo and Skylab programsrepresent a tremendous challenge and a great
+step forward in aerospace technology, we at
+ILC Industries see them as the beginning
+rather than the end of a long line of successful
+efforts.",
+            "topic" : "This experience provided sound base for
+our continuing research, development and
+design aerospace life support equipment,
+and given ILC place leader in
+this field.Although Apollo Skylab programsrepresent tremendous challenge great
+step forward aerospace technology, at
+ILC Industries see beginning
+rather end long line successful
+efforts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We plan to utilize our experience and
+knowledge gained on these programs to
+advance the state-of-the-art in other products
+for both government and Industry.",
+            "topic" : "We plan utilize experience and
+knowledge gained programs to
+advance state-of-the-art products
+for government Industry. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+company has already utilized materials
+applications developed for Apollo and Skylab
+equipment in other products, which are being
+manufactured.",
+            "topic" : "The
+company already utilized materials
+applications developed Apollo Skylab
+equipment products, being
+manufactured. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In this manner, the results of
+technology gained on space programs are
+passed along to the consumer and the public.",
+            "topic" : "In manner, results of
+technology gained space programs are
+passed along consumer public. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The walk on the moon is truly a step into the
+future.0n July 20, 1969, as the world watched in awe when NeilArmstrong made his "One Small Step For A Man" onto
+the lunar surface, a small engineering company located
+in Dover, Delaware was beaming with pride.",
+            "topic" : "The walk moon truly step the
+future.0n July 20, 1969, world watched awe NeilArmstrong made "One Small Step For A Man" onto
+the lunar surface, small engineering company located
+in Dover, Delaware beaming pride. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "That
+company was ILC Dover, and the pride felt at ILC was
+surely justified; they designed and manufactured the
+space suit astronaut Armstrong wore while making
+American history on the moon.",
+            "topic" : "That
+company ILC Dover, pride felt ILC was
+surely justified; designed manufactured the
+space suit astronaut Armstrong wore making
+American history moon. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "That same pride was
+sustained throughout all fifteen Skylab and Apollo/Soyuz
+Test Project (ASTP) mission, during which ILC produced
+space suits performed flawlessly.",
+            "topic" : "That pride was
+sustained throughout fifteen Skylab Apollo/Soyuz
+Test Project (ASTP) mission, ILC produced
+space suits performed flawlessly. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It is of little wonder
+then, that in 1977 ILC Dover, as part of the Hamilton
+Standard team, was selected by NASA as Space Suit
+Assembly (SSA) contractor for the Space Shuttle
+program.The MC Shuttle space suit is a pressure retentionstructure that, together with a life support system
+provides a life-sustaining environment, which protects
+the astronaut against the hazards of space.",
+            "topic" : "It little wonder
+then, 1977 ILC Dover, part Hamilton
+Standard team, selected NASA Space Suit
+Assembly (SSA) contractor Space Shuttle
+program.The MC Shuttle space suit pressure retentionstructure that, together life support system
+provides life-sustaining environment, protects
+the astronaut hazards space. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Such
+hazards include a vacuum environment, temperature
+extremes of -180 to +277 degrees Fahrenheit, and the
+impact of micrometeoroids and orbital debris.Unlike the space suits used in the Apollo or SkylabPrograms, where the entire suit was custom
+manufactured for a specific astronaut, the Shuttle suit is
+comprised of separate components which can be
+assembled to make space suits to fit almost anyone
+(male & female).",
+            "topic" : "Such
+hazards include vacuum environment, temperature
+extremes -180 +277 degrees Fahrenheit, the
+impact micrometeoroids orbital debris.Unlike space suits used Apollo SkylabPrograms, entire suit custom
+manufactured specific astronaut, Shuttle suit is
+comprised separate components be
+assembled make space suits fit almost anyone
+(male & female). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Several sizes of each component aremanufactured and placed on the shelf for future use.When needed, the components are selected from the
+shelf (depending on the astronaut's size) and assembledinto a complete space suit.",
+            "topic" : "Several sizes component aremanufactured placed shelf future use.When needed, components selected the
+shelf (depending astronaut's size) assembledinto complete space suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The SSA and the LifeSupport System (LSS), when combined, become the
+Extravehicular Mobility Unit, or EMU.",
+            "topic" : "The SSA LifeSupport System (LSS), combined, become the
+Extravehicular Mobility Unit, EMU. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EMU is used
+for all Shuttle program extravehicular space activities.The SSA is designed and has been tested for aneight-year operational life.",
+            "topic" : "The EMU used
+for Shuttle program extravehicular space activities.The SSA designed tested aneight-year operational life. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The design permits low
+torque body movements required for performance of
+tasks in space.When pressurized, the "soft" material portion of the suitbecomes very rigid and nearly impossible to bend
+except where specially designed joints are provided.",
+            "topic" : "The design permits low
+torque body movements required performance of
+tasks space.When pressurized, "soft" material portion suitbecomes rigid nearly impossible bend
+except specially designed joints provided. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Such is the case when you inflate the inner tube of an
+automobile fire.The tube becomes very stiff and is difficult to twist orbend.",
+            "topic" : "Such case inflate inner tube an
+automobile fire.The tube becomes stiff difficult twist orbend. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Without these joints it would be virtually
+impossible for the astronaut to do useful work.",
+            "topic" : "Without joints would virtually
+impossible astronaut useful work. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These
+special joints are located at the knees, wrists, shoulders,
+elbows, ankles, thighs and waist of the SSA.",
+            "topic" : "These
+special joints located knees, wrists, shoulders,
+elbows, ankles, thighs waist SSA. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Normal
+body movements by the astronaut cause the suit joints
+to bend.",
+            "topic" : "Normal
+body movements astronaut cause suit joints
+to bend. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This flexibility permits the astronaut to
+conserve energy, reduce fatigue and to work for long
+periods of time.A typical cross-section of the SSA is 11 layers deep,consisting of the liquid Cooling & Ventilation Garment
+(LCVG) (2 layers); pressure garment (2 layers); and theThermal Micrometeoroid Garment (TMG) (7 layers).",
+            "topic" : "This flexibility permits astronaut to
+conserve energy, reduce fatigue work long
+periods time.A typical cross-section SSA 11 layers deep,consisting liquid Cooling & Ventilation Garment
+(LCVG) (2 layers); pressure garment (2 layers); theThermal Micrometeoroid Garment (TMG) (7 layers). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Simply stated, the LCVG maintains astronaut comfort,the pressure garment provides containment of the
+breathing air, and the TMG protects against the
+micrometeoroids which hit the suit, and insulates the
+astronaut from the extreme temperatures of space.Communications Carrier Assembly (CCA)The Communications Carrier is a
+skull cap that interfaces with the
+Electrical Harness Assembly.",
+            "topic" : "Simply stated, LCVG maintains astronaut comfort,the pressure garment provides containment the
+breathing air, TMG protects the
+micrometeoroids hit suit, insulates the
+astronaut extreme temperatures space.Communications Carrier Assembly (CCA)The Communications Carrier a
+skull cap interfaces the
+Electrical Harness Assembly. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It
+contains a microphone and
+earphones for voice
+communications.",
+            "topic" : "It
+contains microphone and
+earphones voice
+communications. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The skull cap is
+made of teflon and nylon/lycra
+fabrics.Hard Upper Torso Assembly(HIT)The Hard Upper Torso is a
+vest-like rigid fiberglass
+shell which incorporates
+provisions for Arm, LTA and
+Helmet attachment.",
+            "topic" : "The skull cap is
+made teflon nylon/lycra
+fabrics.Hard Upper Torso Assembly(HIT)The Hard Upper Torso a
+vest-like rigid fiberglass
+shell incorporates
+provisions Arm, LTA and
+Helmet attachment. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A Water
+Line and Vent Tube
+Assembly is fastened to the
+shell interior and interfaceswith he LCVG and the Life Support System (LSS).",
+            "topic" : "A Water
+Line Vent Tube
+Assembly fastened the
+shell interior interfaceswith LCVG Life Support System (LSS). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+main portion of the LSS, containing water and oxygen
+storage and circulation provisions, mounts on the back
+of the HUT, while the LSS controls mount on the front
+within easy reach of the astronaut.Arm AssemblyThe Arm interfaces with theHUT by a ring that retains the
+Arm Scye Bearing in the HUT
+opening.",
+            "topic" : "The
+main portion LSS, containing water oxygen
+storage circulation provisions, mounts back
+of HUT, LSS controls mount front
+within easy reach astronaut.Arm AssemblyThe Arm interfaces theHUT ring retains the
+Arm Scye Bearing HUT
+opening. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The upper and lower
+arm joints are separated by an
+arm bearing, which allows
+lower arm rotation, the lowerarm also provides for sizing adjustments and for quick
+connect/disconnect of the glove via a wrist disconnect.Maximum Absorbency Garment (MAG) .The Maximum AbsorbencyGarment is worn under the LCVG
+and provides for hygienic
+collection, storage, and eventual
+transfer of astronaut urine and
+feces discharged during
+extravehicular activities.Helmet AssemblyThe Helmet Assembly consists of a
+transparent Shell, Neck Ring, Vent
+Pad, Purge Valve, and an
+adjustable Valsalva device.",
+            "topic" : "The upper lower
+arm joints separated an
+arm bearing, allows
+lower arm rotation, lowerarm also provides sizing adjustments quick
+connect/disconnect glove via wrist disconnect.Maximum Absorbency Garment (MAG) .The Maximum AbsorbencyGarment worn LCVG
+and provides hygienic
+collection, storage, eventual
+transfer astronaut urine and
+feces discharged during
+extravehicular activities.Helmet AssemblyThe Helmet Assembly consists a
+transparent Shell, Neck Ring, Vent
+Pad, Purge Valve, an
+adjustable Valsalva device. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+Helmet is secured to the HUT and
+provides an unobstructed field of
+vision.",
+            "topic" : "The
+Helmet secured HUT and
+provides unobstructed field of
+vision. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Optical clarity of the
+transparent shell is made possibleby the use of rugged, impact resistant polycarbonate
+material.",
+            "topic" : "Optical clarity the
+transparent shell made possibleby use rugged, impact resistant polycarbonate
+material. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A vent assembly, bonded to the inside rear of
+the polycarbonate shell, serves to diffuse the incoming
+gas over the astronaut's face.Lower Torso AssemblyThe Lower TorsoAssembly consists
+of an integrated
+Body Seal Closure,
+Waist, Waist
+Bearing, Leg, Thigh,
+Knee and Ankle
+joints, plus Boots.",
+            "topic" : "A vent assembly, bonded inside rear of
+the polycarbonate shell, serves diffuse incoming
+gas astronaut's face.Lower Torso AssemblyThe Lower TorsoAssembly consists
+of integrated
+Body Seal Closure,
+Waist, Waist
+Bearing, Leg, Thigh,
+Knee Ankle
+joints, plus Boots. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The LTA encloses
+the lower body and
+interfaces with the
+HUT via the body
+seal closure.",
+            "topic" : "The LTA encloses
+the lower body and
+interfaces the
+HUT via body
+seal closure. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+flexible waistsection and waist bearing afford the astronaut a large
+degree of movement about the waist, e.g.",
+            "topic" : "The
+flexible waistsection waist bearing afford astronaut large
+degree movement waist, e.g. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "bending and
+hip rotation.Glove AssemblyThe Glove is made up ofa restraint and bladder
+encased in a TMG.",
+            "topic" : "bending and
+hip rotation.Glove AssemblyThe Glove made ofa restraint bladder
+encased TMG. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+gloves protect the
+astronaut's wrists and
+hands and are attached
+to the arms at the wrist
+disconnects.",
+            "topic" : "The
+gloves protect the
+astronaut's wrists and
+hands attached
+to arms wrist
+disconnects. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The gloves
+incorporate a rotary
+bearing to allow wrist
+rotation, a wrist joint to
+provide flexion/extension,fabric joints for thumbs and fingers, plus a hot pad for
+protection of the hand from extreme hot and cold
+extravehicular conditions.",
+            "topic" : "The gloves
+incorporate rotary
+bearing allow wrist
+rotation, wrist joint to
+provide flexion/extension,fabric joints thumbs fingers, plus hot pad for
+protection hand extreme hot cold
+extravehicular conditions. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The glove includes fingertip
+heaters that are controlled by the astronaut.Extravebicular Visor Assembly (EVVA)The Extravehicular Visor
+Assembly is a
+light-and-heat-attenuating shell
+which fits over the Helmet
+Assembly.",
+            "topic" : "The glove includes fingertip
+heaters controlled astronaut.Extravebicular Visor Assembly (EVVA)The Extravehicular Visor
+Assembly a
+light-and-heat-attenuating shell
+which fits Helmet
+Assembly. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It is designed to
+provide protection against
+micrometeoroid activity and
+accidental impact damage, plus
+protect the crewmember fromsolar radiation.",
+            "topic" : "It designed to
+provide protection against
+micrometeoroid activity and
+accidental impact damage, plus
+protect crewmember fromsolar radiation. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A special coating gives the sun visor
+optical characteristics similar to those of a two-way
+mirror; it reflects solar heat and light, yet permits the
+astronaut to see.",
+            "topic" : "A special coating gives sun visor
+optical characteristics similar two-way
+mirror; reflects solar heat light, yet permits the
+astronaut see. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Adjustable eyeshades may be pulled
+down over the visor to provide further protection against
+sunlight and glare.Liquid Cooling & Ventilation Garment (LCVG)The liquid Cooling &
+Ventilation Garment is a
+close-fitting undergarment
+covering the body torso and
+limbs.",
+            "topic" : "Adjustable eyeshades may pulled
+down visor provide protection against
+sunlight glare.Liquid Cooling & Ventilation Garment (LCVG)The liquid Cooling &
+Ventilation Garment a
+close-fitting undergarment
+covering body torso and
+limbs. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It incorporates a
+network of fine tubing that is
+maintained in close contact
+with the astronaut's skin by
+an outer layer of stretchable
+open fabric.",
+            "topic" : "It incorporates a
+network fine tubing is
+maintained close contact
+with astronaut's skin by
+an outer layer stretchable
+open fabric. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The space suit
+is so well insulated that
+normal body heat maintains
+warmth, except for
+occasional cold hands, even
+on the cold, dark side of the
+spacecraft.",
+            "topic" : "The space suit
+is well insulated that
+normal body heat maintains
+warmth, except for
+occasional cold hands, even
+on cold, dark side the
+spacecraft. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "However,
+cooling is required,
+therefore, water is circulated
+through the LCVG tubing toremove excess body heat.",
+            "topic" : "However,
+cooling required,
+therefore, water circulated
+through LCVG tubing toremove excess body heat. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Water flows through the
+various inlet and return tubes and must be uninterrupted
+in order for the garment to be effective.",
+            "topic" : "Water flows the
+various inlet return tubes must uninterrupted
+in order garment effective. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The LCVG also
+uses ventilation ducting to return vent flow from the
+body extremities to the EMU Life Support System
+(LSS).Insuit Drink Bag (IDB)The IDB is a sealed bag thatcomes in two sizes, holding 21 oz.",
+            "topic" : "The LCVG also
+uses ventilation ducting return vent flow the
+body extremities EMU Life Support System
+(LSS).Insuit Drink Bag (IDB)The IDB sealed bag thatcomes two sizes, holding 21 oz. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "and 32 oz.",
+            "topic" : "32 oz. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "of potable (drinking)water.",
+            "topic" : "potable (drinking)water. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The bag is secured byvelcro to the inside front of the
+HUT.",
+            "topic" : "The bag secured byvelcro inside front the
+HUT. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Water is readily accessible to
+the astronaut through a
+mouthpiece located at the top ofthe bag.Since 1947, ILC has been active in the development ofproducts for both government and industry.",
+            "topic" : "Water readily accessible to
+the astronaut a
+mouthpiece located top ofthe bag.Since 1947, ILC active development ofproducts government industry. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Then as
+today, most A C products are comprised of softgoods
+materials - our primary area of expertise.",
+            "topic" : "Then as
+today, A C products comprised softgoods
+materials - primary area expertise. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Today, ILC's
+products fall into six primary groups:� Space Suits and Equipment� Environmental Protection Products
+� Individual and Collective Protection Equipment
+� High Technology Inflatables
+� Camouflage, Concealment, and Deception
+� Human Engineered CompositesAn astronaut working in the space shuffle orbiter cargo bay wears a spacesuit and a jet-powered, hand-controlled maneuvering unit.",
+            "topic" : "Today, ILC's
+products fall six primary groups:� Space Suits Equipment� Environmental Protection Products
+� Individual Collective Protection Equipment
+� High Technology Inflatables
+� Camouflage, Concealment, Deception
+� Human Engineered CompositesAn astronaut working space shuffle orbiter cargo bay wears spacesuit jet-powered, hand-controlled maneuvering unit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "With thisprotection and equipment, the astronaut becomes an individual spacecraft able to move about and perform tasks in the microgravity of space.WHY WEAR A SPACESUIT?To explore and work in space, human beings must taketheir environment with them because there is no
+atmospheric pressure and no oxygen to sustain life.",
+            "topic" : "With thisprotection equipment, astronaut becomes individual spacecraft able move perform tasks microgravity space.WHY WEAR A SPACESUIT?To explore work space, human beings must taketheir environment no
+atmospheric pressure oxygen sustain life. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Inside the spacecraft, the atmosphere can be controlled
+so that special clothing isn't needed, but when outside,
+humans need the protection of a spacesuit.Earth's atmosphere is 20 percent oxygen and 80percent nitrogen from sea level to about 75 miles up,
+where space begins.",
+            "topic" : "Inside spacecraft, atmosphere controlled
+so special clothing needed, outside,
+humans need protection spacesuit.Earth's atmosphere 20 percent oxygen 80percent nitrogen sea level 75 miles up,
+where space begins. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "At 18,000 feet, the atmosphere is
+half as dense as it is on the ground, and at altitudes
+above 40,000 feet, air is so thin and the amount of
+oxygen so small that pressure oxygen masks no longer
+do the job.",
+            "topic" : "At 18,000 feet, atmosphere is
+half dense ground, altitudes
+above 40,000 feet, air thin amount of
+oxygen small pressure oxygen masks longer
+do job. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Above the 63,000-foot threshold, humans
+must wear spacesuits that supply oxygen for breathing
+and that maintain a pressure around the body to keep
+body fluids in the liquid state.",
+            "topic" : "Above 63,000-foot threshold, humans
+must wear spacesuits supply oxygen breathing
+and maintain pressure around body keep
+body fluids liquid state. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "At this altitude the total air
+pressure is no longer sufficient to keep body fluids from
+boiling.Spacesuits for the space shuttle era arepressurized at 4.3 pounds per square inch (psi), but
+because the gas in the suit is 100 percent oxygen
+instead of 20 percent, the person in a spacesuit actually
+has more oxygen to breathe than is available at an
+altitude of 10,000 feet or even at sea level without the
+spacesuit.",
+            "topic" : "At altitude total air
+pressure longer sufficient keep body fluids from
+boiling.Spacesuits space shuttle era arepressurized 4.3 pounds per square inch (psi), but
+because gas suit 100 percent oxygen
+instead 20 percent, person spacesuit actually
+has oxygen breathe available an
+altitude 10,000 feet even sea level without the
+spacesuit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Before leaving the space shuttle to perform
+tasks in space, an astronaut has to spend several hours
+breathing pure oxygen before proceeding into space.",
+            "topic" : "Before leaving space shuttle perform
+tasks space, astronaut spend several hours
+breathing pure oxygen proceeding space. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This procedure is necessary to remove nitrogen
+dissolved in body fluids and thereby to prevent its
+release as gas bubbles when pressure is reduced; a
+condition commonly called "the bends.",
+            "topic" : "This procedure necessary remove nitrogen
+dissolved body fluids thereby prevent its
+release gas bubbles pressure reduced; a
+condition commonly called "the bends. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""Spacesuits designed for the space station era willbe pressurized to 8.3 psi; therefore, the pre-breathing
+period will be shortened or diminished.The spacesuit also shields the astronaut fromdeadly hazards.",
+            "topic" : ""Spacesuits designed space station era willbe pressurized 8.3 psi; therefore, pre-breathing
+period shortened diminished.The spacesuit also shields astronaut fromdeadly hazards. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Besides providing protection from
+bombardment by micrometeoroids, the spacesuit
+insulates the wearer from the temperature extremes of
+space.",
+            "topic" : "Besides providing protection from
+bombardment micrometeoroids, spacesuit
+insulates wearer temperature extremes of
+space. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Without the Earth's atmosphere to filter the
+sunlight, the side of the suit facing the Sun may be
+heated to a temperature as high as 250 degrees
+Fahrenheit; the other side, exposed to darkness of deep
+space, may get as cold as -250 degrees Fahrenheit.WARDROBE FOR THE SPACE SHUTTLE ERAAstronauts of the space shuttle era have more than onewardrobe for space flight and what they wear depends
+on the job they are doing.During ascent and entry, each crewmemberwears special equipment consisting of a partialpressure
+suit, a parachute harness assembly, and a parachute
+pack.",
+            "topic" : "Without Earth's atmosphere filter the
+sunlight, side suit facing Sun may be
+heated temperature high 250 degrees
+Fahrenheit; side, exposed darkness deep
+space, may get cold -250 degrees Fahrenheit.WARDROBE FOR THE SPACE SHUTTLE ERAAstronauts space shuttle era onewardrobe space flight wear depends
+on job doing.During ascent entry, crewmemberwears special equipment consisting partialpressure
+suit, parachute harness assembly, parachute
+pack. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suit, consisting of helmet, communication
+assembly, torso, gloves and boots, provides
+counterpressure and anti-exposure functions in an
+emergency situation in which the crew must parachuteSTS-26 crewmembers leave the Operations and Checkout Buildingat Kennedy Space Center, Florida, heading for the launch pad and
+lift-off.",
+            "topic" : "The suit, consisting helmet, communication
+assembly, torso, gloves boots, provides
+counterpressure anti-exposure functions an
+emergency situation crew must parachuteSTS-26 crewmembers leave Operations Checkout Buildingat Kennedy Space Center, Florida, heading launch pad and
+lift-off. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "They are wearing partial pressure suits developed for the
+launch and entry phases of space flight.from the orbiter, The suit has inflatable bladders that fillit with oxygen from the orbiter.",
+            "topic" : "They wearing partial pressure suits developed the
+launch entry phases space flight.from orbiter, The suit inflatable bladders fillit oxygen orbiter. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These bladders inflate
+automatically at reduced cabin pressure.",
+            "topic" : "These bladders inflate
+automatically reduced cabin pressure. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "They also can
+be manually inflated during entry to prevent the
+crewmemberCrewmembers of mission STS 61 -A perform experiments in thespacelab module in the space shuttle orbiter cargo bay.",
+            "topic" : "They also can
+be manually inflated entry prevent the
+crewmemberCrewmembers mission STS 61 -A perform experiments thespacelab module space shuttle orbiter cargo bay. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Astronauts
+work in a controlled environment of moderate temperatures and
+unpolluted air at sea-level atmosphere.",
+            "topic" : "Astronauts
+work controlled environment moderate temperatures and
+unpolluted air sea-level atmosphere. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Space shuttle EMU componentsfrom blacking out.",
+            "topic" : "Space shuttle EMU componentsfrom blacking out. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Without the suit pressing on theabdomen and the legs, the blood would pool in the lower
+part of the body and cause a person to black out as the
+spacecraft returns from microgravity to Earth's gravity.",
+            "topic" : "Without suit pressing theabdomen legs, blood would pool lower
+part body cause person black the
+spacecraft returns microgravity Earth's gravity. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The partial-pressure suit and equipment will support a
+crewmember for a 24-hour period in a liferaft in case of
+an egress over water.Working Inside the Space ShuttleDuring orbit, astronauts work inside the space shuttle inshirtsleeve comfort.",
+            "topic" : "The partial-pressure suit equipment support a
+crewmember 24-hour period liferaft case of
+an egress water.Working Inside Space ShuttleDuring orbit, astronauts work inside space shuttle inshirtsleeve comfort. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Prior to a mission, crewmembers
+are outfitted from a selection of clothing including flight
+suits, trousers, lined zipper jackets, knit shirts, sleep
+shorts, soft slippers, and underwear.",
+            "topic" : "Prior mission, crewmembers
+are outfitted selection clothing including flight
+suits, trousers, lined zipper jackets, knit shirts, sleep
+shorts, soft slippers, underwear. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The materials of
+every component of the clothing are flame retardant.",
+            "topic" : "The materials of
+every component clothing flame retardant. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Covering the exterior of the garments are closable
+pockets for storing such items as pens, pencils, data
+books, sunglasses, a multipurpose Swiss army
+pocketknife, and scissors.Working Outside the Space ShuttleTo work in the open cargo bay of the space shuttle or inspace, astronauts wear the shuttle extravehicular
+mobility unit (EMU) spacesuit, which was developed to
+be More durable and more flexible than previous
+spacesuits were.",
+            "topic" : "Covering exterior garments closable
+pockets storing items pens, pencils, data
+books, sunglasses, multipurpose Swiss army
+pocketknife, scissors.Working Outside Space ShuttleTo work open cargo bay space shuttle inspace, astronauts wear shuttle extravehicular
+mobility unit (EMU) spacesuit, developed to
+be More durable flexible previous
+spacesuits were. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suit is modular in design, with
+many interchangeable parts.",
+            "topic" : "The suit modular design, with
+many interchangeable parts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The upper torso, lower
+torso, arms, and gloves are manufactured in different
+sizes and can be assembled for each mission in
+combinations needed to fit men and women astronauts.",
+            "topic" : "The upper torso, lower
+torso, arms, gloves manufactured different
+sizes assembled mission in
+combinations needed fit men women astronauts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This design is cost-effective because the suits are
+reusable and not custom fitted as were spacesuits used
+in previous NASA manned space flight programs.Suiting upThe EMU comprises the spacesuit assembly, theprimary life support system (PLSS), the display and
+control module, and several other crew items designed
+for spacewalks and emergency life support.",
+            "topic" : "This design cost-effective suits are
+reusable custom fitted spacesuits used
+in previous NASA manned space flight programs.Suiting upThe EMU comprises spacesuit assembly, theprimary life support system (PLSS), display and
+control module, several crew items designed
+for spacewalks emergency life support. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EMU
+accommodates a variety of interchangeable systems
+that interconnect easily andAstronaut Sherwood C. Spring wears the EMU while checkingjoints on a tower extending from the Space Shuttle Atlantis cargo
+bay during mission STS 61 -B.",
+            "topic" : "The EMU
+accommodates variety interchangeable systems
+that interconnect easily andAstronaut Sherwood C. Spring wears EMU checkingjoints tower extending Space Shuttle Atlantis cargo
+bay mission STS 61 -B. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "He is standing on the end of the arm
+of the remote manipulator system connected to the space shuttle.securely in single-handed operation for either normal oremergency use.",
+            "topic" : "He standing end arm
+of remote manipulator system connected space shuttle.securely single-handed operation either normal oremergency use. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "When preparing to work in space, the
+astronaut goes into the airlock of the space shuttle
+orbiter and puts on the following parts of the EMU:� A urine-collection device that receives and storesurine for transfer later to the orbiter wastemanagement system.� A liquid cooling and ventilation garment, aone-piece mesh suit made of spandex, zippered for
+front entry, and weighing 6.5 pounds dry.",
+            "topic" : "When preparing work space, the
+astronaut goes airlock space shuttle
+orbiter puts following parts EMU:� A urine-collection device receives storesurine transfer later orbiter wastemanagement system.� A liquid cooling ventilation garment, aone-piece mesh suit made spandex, zippered for
+front entry, weighing 6.5 pounds dry. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+garment has water-cooling tubes running through it
+to keep the wearer comfortable during active work
+periods.� An in-suit drink bag containing 21 ounces of potablewater, the "Snoopy Cap," or communications carrier
+assembly, with headphones and microphones for
+two-way communications and caution-and-warning
+tones, and a biomedical instrumentation subsystem.To put on the spacesuit, the astronaut first donsthe lower torso assembly and then rises into the top
+section of the two-piece EMU spacesuit hanging on the
+wall of the airlock.",
+            "topic" : "The
+garment water-cooling tubes running it
+to keep wearer comfortable active work
+periods.� An in-suit drink bag containing 21 ounces potablewater, "Snoopy Cap," communications carrier
+assembly, headphones microphones for
+two-way communications caution-and-warning
+tones, biomedical instrumentation subsystem.To put spacesuit, astronaut first donsthe lower torso assembly rises top
+section two-piece EMU spacesuit hanging the
+wall airlock. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The upper torso of the spacesuit is a
+hard-shell fiberglass structure that contains the primary
+life support system and the display control module.",
+            "topic" : "The upper torso spacesuit a
+hard-shell fiberglass structure contains primary
+life support system display control module. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Connections between the two parts must be aligned to
+enable circulation of water and gas into the liquid
+cooling ventilation garment and return.",
+            "topic" : "Connections two parts must aligned to
+enable circulation water gas liquid
+cooling ventilation garment return. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Then, the gloves
+are added and last to be donned is the extravehicular
+visor and helmet assembly, which provides protection
+from micrometeoroids and from solar ultraviolet and
+infrared radiation.",
+            "topic" : "Then, gloves
+are added last donned extravehicular
+visor helmet assembly, provides protection
+from micrometeoroids solar ultraviolet and
+infrared radiation. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Bearings in the shoulder, arm, wrist,
+and waist joints allow the crewmember freedom ofmovement.",
+            "topic" : "Bearings shoulder, arm, wrist,
+and waist joints allow crewmember freedom ofmovement. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Bending, leaning, and twisting motions of
+the torso can all be done with relative ease.All fabric-to- hardware connections are made witheither mechanical joints or adhesive bonding.",
+            "topic" : "Bending, leaning, twisting motions of
+the torso done relative ease.All fabric-to- hardware connections made witheither mechanical joints adhesive bonding. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Materials
+used in the construction of the suit are selected to
+prevent fungus or bacteria growth; however, the suit
+Must be cleaned and dried after flight use.The entire suit assembly is rated with a minimum8-year life expectancy.",
+            "topic" : "Materials
+used construction suit selected to
+prevent fungus bacteria growth; however, suit
+Must cleaned dried flight use.The entire suit assembly rated minimum8-year life expectancy. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The nominal operating
+atmospheric pressure in the suit is 4.3 psid.",
+            "topic" : "The nominal operating
+atmospheric pressure suit 4.3 psid. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suit
+comprises several layers including a
+polyurethane-coated nylon pressure bladder, a polyester
+structural restraint layer with folded and pleated joints
+(for mobility), and a woven Kevlar, Teflon, and Dacron
+anti-abrasion outer layer.The maximum total weight of the largest sizespacesuit assembly, including the liquid cooling and
+ventilation garment, urine collection device, helmet and
+visor assembly, communications carrier assembly, insuit
+drink bag, and biomedical instrumentation subsystem, is
+107 pounds,The astronaut is ready to go to work in space andsecures the necessary tools to the mini-workstation of
+the suit.",
+            "topic" : "The suit
+comprises several layers including a
+polyurethane-coated nylon pressure bladder, polyester
+structural restraint layer folded pleated joints
+(for mobility), woven Kevlar, Teflon, Dacron
+anti-abrasion outer layer.The maximum total weight largest sizespacesuit assembly, including liquid cooling and
+ventilation garment, urine collection device, helmet and
+visor assembly, communications carrier assembly, insuit
+drink bag, biomedical instrumentation subsystem, is
+107 pounds,The astronaut ready go work space andsecures necessary tools mini-workstation of
+the suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The EMU lights are mounted on the helmet and
+are a necessity because during orbital operations
+approximately every other 45 minutes are spent in
+darkness.CommunicationsAn electrical harness inside the suit connects thecommunications carrier assembly and the biomedical
+instrumentation equipment to the hard upper torso
+where internal connections are routed to the
+extravehicular communicator by means of a
+passthrough.The extravehicular communicator attaches to theupper portion of the life support system at the back of
+the hard upper torso, The controls are located on the
+display and control module mounted on the chest at the
+front of the upper torso.",
+            "topic" : "The EMU lights mounted helmet and
+are necessity orbital operations
+approximately every 45 minutes spent in
+darkness.CommunicationsAn electrical harness inside suit connects thecommunications carrier assembly biomedical
+instrumentation equipment hard upper torso
+where internal connections routed the
+extravehicular communicator means a
+passthrough.The extravehicular communicator attaches theupper portion life support system back of
+the hard upper torso, The controls located the
+display control module mounted chest the
+front upper torso. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The extravehicular
+communicator provides radio communication between
+the suited crewmember and the orbiter.",
+            "topic" : "The extravehicular
+communicator provides radio communication between
+the suited crewmember orbiter. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In addition,
+electrocardiographic (EKG) information is telemetered
+through the extravehicular communicator to the orbiter
+and to flight surgeons in the Mission Control Center at
+Houston, Texas.The radios for spacewalk communications havetwo single UHF channel transmitters, three
+singlechannel receivers, and a switching mechanism.",
+            "topic" : "In addition,
+electrocardiographic (EKG) information telemetered
+through extravehicular communicator orbiter
+and flight surgeons Mission Control Center at
+Houston, Texas.The radios spacewalk communications havetwo single UHF channel transmitters, three
+singlechannel receivers, switching mechanism. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These backpack radios have a "low profile" antenna - a
+footlong rectangular block fitted to the top of the PLSS.",
+            "topic" : "These backpack radios "low profile" antenna - a
+footlong rectangular block fitted top PLSS. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The radios weigh 8.7 pounds and are 12 inches long, 4.3
+inches high, and 3.5 inches wide.Primary life support systemThe PLSS consists of a backpack unit permanentlymounted to the hard upper torso of the suit and aAstronaut Bruce McCandless 11 called the MMU "a great flyingmachine."",
+            "topic" : "The radios weigh 8.7 pounds 12 inches long, 4.3
+inches high, 3.5 inches wide.Primary life support systemThe PLSS consists backpack unit permanentlymounted hard upper torso suit aAstronaut Bruce McCandless 11 called MMU "a great flyingmachine." ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "McCandless was the first astronaut to use the MMU for a
+spacewalk on February 7,1984, during space shuffle mission STS
+41-8.Control-and-display unit mounted on the suit chest.",
+            "topic" : "McCandless first astronaut use MMU a
+spacewalk February 7,1984, space shuffle mission STS
+41-8.Control-and-display unit mounted suit chest. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Thebackpack unit supplies oxygen for breathing, suit
+pressurization, and ventilation.",
+            "topic" : "Thebackpack unit supplies oxygen breathing, suit
+pressurization, ventilation. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The unit also cools and
+circulates water used in the liquid cooling ventilation
+garment, controls ventilation gas temperature, absorbs
+carbon dioxide, and removes odors from the suit
+atmosphere.",
+            "topic" : "The unit also cools and
+circulates water used liquid cooling ventilation
+garment, controls ventilation gas temperature, absorbs
+carbon dioxide, removes odors suit
+atmosphere. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The secondary oxygen pack attaches to
+the bottom of the PLSS and supplies oxygen if the
+primary oxygen fails.",
+            "topic" : "The secondary oxygen pack attaches to
+the bottom PLSS supplies oxygen the
+primary oxygen fails. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The control-and-display unit allows
+the crewmember to control and monitor the PLSS, the
+secondary oxygen pack, and, when attached, the
+manned maneuvering unit.Maneuvering in spaceThe manned maneuvering unit (MMU) is a one-man,nitrogen-propelled backpack that latches to the EMU
+spacesuit's PLSS.",
+            "topic" : "The control-and-display unit allows
+the crewmember control monitor PLSS, the
+secondary oxygen pack, and, attached, the
+manned maneuvering unit.Maneuvering spaceThe manned maneuvering unit (MMU) one-man,nitrogen-propelled backpack latches EMU
+spacesuit's PLSS. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Using rotational and translational
+hand controllers, the crewmember can fly with precision
+in or around the orbiter cargo bay or to nearby freeflying
+payloads or structures, and can reach many otherwise
+inaccessible areas outside the orbiter.",
+            "topic" : "Using rotational translational
+hand controllers, crewmember fly precision
+in around orbiter cargo bay nearby freeflying
+payloads structures, reach many otherwise
+inaccessible areas outside orbiter. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Astronauts
+wearing MMU's have deployed, serviced, repaired, and
+retrieved satellite payloads.The MMU propellant - noncontaminating gaseousnitrogen stored under high pressure - can be recharged
+from the orbiter, The reliability of the unit is guaranteed
+with a dual parallel system rather than a backup
+redundant system.",
+            "topic" : "Astronauts
+wearing MMU's deployed, serviced, repaired, and
+retrieved satellite payloads.The MMU propellant - noncontaminating gaseousnitrogen stored high pressure - recharged
+from orbiter, The reliability unit guaranteed
+with dual parallel system rather backup
+redundant system. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In the event of a failure in one
+parallel system, the system would be shut down and the
+remaining system would be used to return the MMU to
+the orbiter cargo bay.",
+            "topic" : "In event failure one
+parallel system, system would shut the
+remaining system would used return MMU to
+the orbiter cargo bay. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The MMU, which weighs310 pounds, includes a 35-mm still photo camera that is
+operated by the astronaut while working in space.SPACESUITS FOR SPACE STATION AND BEYONDWhen Edward White opened the Gemini IV hatch in1965 and became the first American to step into the
+vacuum of space, life-giving oxygen was fed to his
+spacesuit by a 25-foot umbilical to a chest-mounted
+pressure regulator and ventilation assembly.Exploring the Moon, however, required toreindependence from the spacecraft.",
+            "topic" : "The MMU, weighs310 pounds, includes 35-mm still photo camera is
+operated astronaut working space.SPACESUITS FOR SPACE STATION AND BEYONDWhen Edward White opened Gemini IV hatch in1965 became first American step the
+vacuum space, life-giving oxygen fed his
+spacesuit 25-foot umbilical chest-mounted
+pressure regulator ventilation assembly.Exploring Moon, however, required toreindependence spacecraft. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The backpack
+portable life support system, a self-contained supply of
+breathing and pressurizing oxygen, filters for removing
+carbon dioxide, and cooling water, gave Apollo crewmen
+the independence they needed.The PLSS supplied oxygen at 3.5 to 4 psi ofpressure while circulating cooling water through the
+liquid-cooling garment worn under the spacesuit.",
+            "topic" : "The backpack
+portable life support system, self-contained supply of
+breathing pressurizing oxygen, filters removing
+carbon dioxide, cooling water, gave Apollo crewmen
+the independence needed.The PLSS supplied oxygen 3.5 4 psi ofpressure circulating cooling water the
+liquid-cooling garment worn spacesuit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Lithium
+hydroxide filters removed carbon dioxide from the
+crewman's exhaled breath, and charcoal and OrlonThe Mark III suit is modeled at Johnson Space Center, where it isbeing evaluated for use in the space station erafilters sifted out odors and foreign particles from thebreathing oxygen.",
+            "topic" : "Lithium
+hydroxide filters removed carbon dioxide the
+crewman's exhaled breath, charcoal OrlonThe Mark III suit modeled Johnson Space Center, isbeing evaluated use space station erafilters sifted odors foreign particles thebreathing oxygen. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Metabolic heat was transferred from
+the cooling water loops to space through a water
+evaporator system in the PLSS.Mounted atop the PLSS was an emergency30-minute supply of oxygen and communications
+equipment for talking with fellow crewmen on the lunar
+surface and with flight controllers in Mission Control
+Center in Houston.",
+            "topic" : "Metabolic heat transferred from
+the cooling water loops space water
+evaporator system PLSS.Mounted atop PLSS emergency30-minute supply oxygen communications
+equipment talking fellow crewmen lunar
+surface flight controllers Mission Control
+Center Houston. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Additionally, the communications
+systems relayed back to Earth biomedical data on the
+crewmen.The Apollo lunar surface spacesuit and PLSSweighed 180 pounds on Earth, but only 30 pounds on
+the Moon because of the difference in gravity.With the advent of the space station program,work outside the spacecraft will be expanded to provide
+numerous unique on-orbit service capabilities not fully
+achieved in previous space program operations.",
+            "topic" : "Additionally, communications
+systems relayed back Earth biomedical data the
+crewmen.The Apollo lunar surface spacesuit PLSSweighed 180 pounds Earth, 30 pounds on
+the Moon difference gravity.With advent space station program,work outside spacecraft expanded provide
+numerous unique on-orbit service capabilities fully
+achieved previous space program operations. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Currently, scientists and engineers at two NASA
+facilities are working on a new generation of spacesuits
+for use during activity in space.The Mark III suit, a combination of hard and softelements, is being developed at the NASA Lyndon B
+Johnson Space Center (JSC) in Houston, Texas.",
+            "topic" : "Currently, scientists engineers two NASA
+facilities working new generation spacesuits
+for use activity space.The Mark III suit, combination hard softelements, developed NASA Lyndon B
+Johnson Space Center (JSC) Houston, Texas. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+AX-5, a hard, all metal suit, is being developed by the
+NASA Ames Research Center (ARC) in California.",
+            "topic" : "The
+AX-5, hard, metal suit, developed the
+NASA Ames Research Center (ARC) California. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Both
+suits share common design goals.",
+            "topic" : "Both
+suits share common design goals. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "For example, they
+must be easy to get into and out of, must be comfortable
+to wear, and must allow adequate mobility and range of
+motion for the jobs to be performed.",
+            "topic" : "For example, they
+must easy get of, must comfortable
+to wear, must allow adequate mobility range of
+motion jobs performed. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Both are designed
+to be altered to fit different size astronautsThe first seven astronauts selected by NASA in 1959 wear thespacesuits developed for Project Mercury.For use on space station, the suit must also beeasily maintained and provide necessary protectionfrom radiation, micrometeoroids, and manmade debris.",
+            "topic" : "Both designed
+to altered fit different size astronautsThe first seven astronauts selected NASA 1959 wear thespacesuits developed Project Mercury.For use space station, suit must also beeasily maintained provide necessary protectionfrom radiation, micrometeoroids, manmade debris. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In addition to these requirements, both the JSC Mark III
+and the ARC AX-5 suit have been designed to operate
+at a pressure of 8.3 psi.",
+            "topic" : "In addition requirements, JSC Mark III
+and ARC AX-5 suit designed operate
+at pressure 8.3 psi. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Current space shuttle
+spacesuits operate at 4.3 psi and require a
+time-consuming pre-breathing operation prior to the
+beginning of any spacewalk.Pre-breathing allows the astronaut's body to adaptto the difference in pressure between the spacecraft
+cabin and the suit.",
+            "topic" : "Current space shuttle
+spacesuits operate 4.3 psi require a
+time-consuming pre-breathing operation prior the
+beginning spacewalk.Pre-breathing allows astronaut's body adaptto difference pressure spacecraft
+cabin suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "By operating at a higher pressure,
+which more closely matches that of the space station,
+the new suit would greatly reduce or even eliminate the
+need for pre-breathing.",
+            "topic" : "By operating higher pressure,
+which closely matches space station,
+the new suit would greatly reduce even eliminate the
+need pre-breathing. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Astronauts in the space station
+will be able to prepare for outside activity in much less
+time.HISTORY OF WARDROBES FOR SPACEThe Mercury spacesuit was a modified version of a U.S.Navy high altitude jet aircraft pressure suit.",
+            "topic" : "Astronauts space station
+will able prepare outside activity much less
+time.HISTORY OF WARDROBES FOR SPACEThe Mercury spacesuit modified version U.S.Navy high altitude jet aircraft pressure suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It consisted
+of an inner layer of Neoprene-coated nylon fabric and a
+restraint outer layer of aluminized nylon.",
+            "topic" : "It consisted
+of inner layer Neoprene-coated nylon fabric a
+restraint outer layer aluminized nylon. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Joint mobility
+at the elbow and knees was provided by simple fabric
+break lines sewn into the suit; but even with these break
+lines, it was difficult for a pilot to bend his arms or legs
+against the force of a pressurized suit.",
+            "topic" : "Joint mobility
+at elbow knees provided simple fabric
+break lines sewn suit; even break
+lines, difficult pilot bend arms legs
+against force pressurized suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "As an elbow or
+knee joint was bent, the suit joints folded in on
+themselves reducing suit internal volume and increasing
+pressure.Astronaut Edward H. White 11 was the first U.S. crewman to float inthe zero gravity of space.",
+            "topic" : "As elbow or
+knee joint bent, suit joints folded on
+themselves reducing suit internal volume increasing
+pressure.Astronaut Edward H. White 11 first U.S. crewman float inthe zero gravity space. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "His spacewalk occurred during the flight
+of Gemini 4.Apollo 17 scientist- astronaut Harrison H. Schmitt wears a protective spacesuit and helmet while collecting lunar samples at the Taurus-Littrowlanding site in 1972.",
+            "topic" : "His spacewalk occurred flight
+of Gemini 4.Apollo 17 scientist- astronaut Harrison H. Schmitt wears protective spacesuit helmet collecting lunar samples Taurus-Littrowlanding site 1972. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "His backpack is the portable life support system.The Mercury suit was worn "soft" or unpressurizedand served only as a backup for possible spacecraftcabin pressure loss - an event that never happened.",
+            "topic" : "His backpack portable life support system.The Mercury suit worn "soft" unpressurizedand served backup possible spacecraftcabin pressure loss - event never happened. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Limited pressurized mobility would have been a minor
+inconvenience in the small Mercury spacecraft cabin.Spacesuit designers followed the U.S. Air Forceapproach toward greater suit mobility when they began
+to develop the spacesuit for the two-man Gemini
+spacecraft.",
+            "topic" : "Limited pressurized mobility would minor
+inconvenience small Mercury spacecraft cabin.Spacesuit designers followed U.S. Air Forceapproach toward greater suit mobility began
+to develop spacesuit two-man Gemini
+spacecraft. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Instead of the fabric-type joints used in the
+Mercury suit, the Gemini spacesuit had a combination of
+a pressure bladder and a link-net restraint layer that
+made the whole suit flexible when pressurized.The gas-tight, man-shaped pressure bladder wasmade of Neoprene-coated nylon and covered by
+loadbearing link-net woven from Dacron and Teflon
+cords.",
+            "topic" : "Instead fabric-type joints used the
+Mercury suit, Gemini spacesuit combination of
+a pressure bladder link-net restraint layer that
+made whole suit flexible pressurized.The gas-tight, man-shaped pressure bladder wasmade Neoprene-coated nylon covered by
+loadbearing link-net woven Dacron Teflon
+cords. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The net layer, being slightly smaller than the
+pressure bladder, reduced the stiffness of the suit when
+pressurized and served as a sort of structural shell,
+much like a tire contained the pressure load of the
+innertube in the era before tubeless tires, Improved arm
+and shoulder mobility resulted from the multilayer
+design of the Gemini suit.Tailored for Apollo Moon WalkingWalking on the Moon's surface a quarter million milesaway from Earth presented a new set of problems to
+spacesuit designers.",
+            "topic" : "The net layer, slightly smaller the
+pressure bladder, reduced stiffness suit when
+pressurized served sort structural shell,
+much like tire contained pressure load the
+innertube era tubeless tires, Improved arm
+and shoulder mobility resulted multilayer
+design Gemini suit.Tailored Apollo Moon WalkingWalking Moon's surface quarter million milesaway Earth presented new set problems to
+spacesuit designers. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Not only did the Moon explorers'spacesuits have to offer protection from jagged rocksand the searing heat of the lunar day, but the suits alsohad to be flexible enough to permit stooping andbending as Apollo crewmen gathered samples from the
+Moon, set up scientific data stations at each landing site,
+and used the lunar rover vehicle, an electric-powered
+dune buggy, for transportation over the surface of the
+Moon.The additional hazard of micrometeoroids thatconstantly pelt the lunar surface from deep space was
+met with an outer protective layer on the Apollo
+spacesuit.",
+            "topic" : "Not Moon explorers'spacesuits offer protection jagged rocksand searing heat lunar day, suits alsohad flexible enough permit stooping andbending Apollo crewmen gathered samples the
+Moon, set scientific data stations landing site,
+and used lunar rover vehicle, electric-powered
+dune buggy, transportation surface the
+Moon.The additional hazard micrometeoroids thatconstantly pelt lunar surface deep space was
+met outer protective layer Apollo
+spacesuit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "A backpack portable life support system
+provided oxygen for breathing, suit pressurization, and
+ventilation for moonwalks lasting up to 7 hours,Apollo spacesuit mobility was improved overearlier suits by use of bellows-like molded rubber joints
+at the shoulders, elbows, hips and knees.",
+            "topic" : "A backpack portable life support system
+provided oxygen breathing, suit pressurization, and
+ventilation moonwalks lasting 7 hours,Apollo spacesuit mobility improved overearlier suits use bellows-like molded rubber joints
+at shoulders, elbows, hips knees. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Modifications
+to the suit waist for Apollo 15 through 17 missions added
+flexibility making it easier for crewmen to sit on the lunar
+rover vehicle.From the skin out, the Apollo A7LB spacesuitbegan with an astronaut-worn liquid-cooling garment,
+similar to a pair of longjohns with a network of
+spaghettilike tubing sewn onto the fabric.",
+            "topic" : "Modifications
+to suit waist Apollo 15 17 missions added
+flexibility making easier crewmen sit lunar
+rover vehicle.From skin out, Apollo A7LB spacesuitbegan astronaut-worn liquid-cooling garment,
+similar pair longjohns network of
+spaghettilike tubing sewn onto fabric. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Cool water,
+circulating through the tubing, transferred metabolic
+heat from the Moon explorer's body to the backpack and
+thence to space.Next came a comfort and donning improvementlayer of lightweight nylon, followed by a gas-tight
+pressure bladder of Neoprene-coated nylon orbellows-like molded joints components, a nylon restraintlayer to prevent the bladder from ballooning, a
+lightweight thermal superinsulation of alternating layers
+of thin Kapton and glass-fiber cloth, several layers of
+Mylar and spacer Material, and finally, protective outer
+layers of Tefloncoated glass-fiber Beta cloth.Apollo space helmets were formed fromhighstrength polycarbonate and were attached to the
+spacesuit by a pressure-sealing neckring.",
+            "topic" : "Cool water,
+circulating tubing, transferred metabolic
+heat Moon explorer's body backpack and
+thence space.Next came comfort donning improvementlayer lightweight nylon, followed gas-tight
+pressure bladder Neoprene-coated nylon orbellows-like molded joints components, nylon restraintlayer prevent bladder ballooning, a
+lightweight thermal superinsulation alternating layers
+of thin Kapton glass-fiber cloth, several layers of
+Mylar spacer Material, finally, protective outer
+layers Tefloncoated glass-fiber Beta cloth.Apollo space helmets formed fromhighstrength polycarbonate attached the
+spacesuit pressure-sealing neckring. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Unlike
+Mercury and Gemini helmets, which were closely fitted
+and moved with the crewman's head, the Apollo helmet
+was fixed and the head was free to move within.",
+            "topic" : "Unlike
+Mercury Gemini helmets, closely fitted
+and moved crewman's head, Apollo helmet
+was fixed head free move within. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "While
+walking on the Moon, Apollo crewmen wore an outer
+visor assembly over the polycarbonate helmet to shield
+against eyedamaging ultraviolet radiation, and to
+maintain head and face thermal comfort.Completing the Moon explorer's ensemble werelunar gloves and boots, both designed for the rigors of
+exploring, and the gloves for adjusting sensitive
+instruments.The lunar surface gloves consisted of integralstructural restraint and pressure bladders, molded from
+casts of the crewmen's hands, and covered by
+multilayered superinsulation for thermal and abrasion
+protection.",
+            "topic" : "While
+walking Moon, Apollo crewmen wore outer
+visor assembly polycarbonate helmet shield
+against eyedamaging ultraviolet radiation, to
+maintain head face thermal comfort.Completing Moon explorer's ensemble werelunar gloves boots, designed rigors of
+exploring, gloves adjusting sensitive
+instruments.The lunar surface gloves consisted integralstructural restraint pressure bladders, molded from
+casts crewmen's hands, covered by
+multilayered superinsulation thermal abrasion
+protection. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Thumb and fingertips were molded of
+silicone rubber to permit a degree of sensitivity and
+"feel."",
+            "topic" : "Thumb fingertips molded of
+silicone rubber permit degree sensitivity and
+"feel." ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Pressure-sealing disconnects, similar to the
+helmet-to-suit connection, attached the gloves to the
+spacesuit arms.The lunar boot was actually an overshoe that theApollo lunar explorer slipped on over the integral
+pressure boot of the spacesuit.",
+            "topic" : "Pressure-sealing disconnects, similar the
+helmet-to-suit connection, attached gloves the
+spacesuit arms.The lunar boot actually overshoe theApollo lunar explorer slipped integral
+pressure boot spacesuit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The outer layer of the
+lunar boot was made from metal-woven fabric, except
+for the ribbed silicone rubber sole; the tongue area was
+madefrom Teflon-coated glass-fiber cloth.",
+            "topic" : "The outer layer the
+lunar boot made metal-woven fabric, except
+for ribbed silicone rubber sole; tongue area was
+madefrom Teflon-coated glass-fiber cloth. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The boot inner
+layers were made from Teflon-coated glass-fiber cloth
+followed by 25 alternating layers of Kapton film and
+glass-fiber cloth to form an efficient, lightweight thermal
+insulation.Wardrobe for Skylab and Apollo-SoyuzNine Skylab crewmen manned the Nation's first spacestation for a total of 171 days during 1973 and 1974.",
+            "topic" : "The boot inner
+layers made Teflon-coated glass-fiber cloth
+followed 25 alternating layers Kapton film and
+glass-fiber cloth form efficient, lightweight thermal
+insulation.Wardrobe Skylab Apollo-SoyuzNine Skylab crewmen manned Nation's first spacestation total 171 days 1973 1974. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "They wore simplified versions of the Apollo spacesuit
+while doing the historic repair of the Skylab and
+changing film canisters in the solar observatory
+cameras.",
+            "topic" : "They wore simplified versions Apollo spacesuit
+while historic repair Skylab and
+changing film canisters solar observatory
+cameras. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Jammed solar panels and the loss of a
+micrometeoroid shield during the launch of the Skylab
+orbital workshop necessitated several spacewalks for
+freeing the solar panels and for erecting a substitute
+shield.The spacesuit changes from Apollo to Skylabincluded a less expensive to manufacture and
+lightweight thermal micrometeoroid overgarment,
+elimination of the lunar boots, and a simplified and less
+expensive extravehicular visor assembly over the
+helmet.",
+            "topic" : "Jammed solar panels loss a
+micrometeoroid shield launch Skylab
+orbital workshop necessitated several spacewalks for
+freeing solar panels erecting substitute
+shield.The spacesuit changes Apollo Skylabincluded less expensive manufacture and
+lightweight thermal micrometeoroid overgarment,
+elimination lunar boots, simplified less
+expensive extravehicular visor assembly the
+helmet. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The liquidcooling garment was retained from
+Apollo, but umbilicals and astronaut life support
+assembly (ALSA) replaced backpacks for life support
+during spacewalks.Apollo-type spacesuits were used again in July1975 when American astronauts and Soviet cosmonauts
+rendezvoused and docked in Earth orbit in the joint
+Apollo-Soyuz Test Project (ASTP) flight.",
+            "topic" : "The liquidcooling garment retained from
+Apollo, umbilicals astronaut life support
+assembly (ALSA) replaced backpacks life support
+during spacewalks.Apollo-type spacesuits used July1975 American astronauts Soviet cosmonauts
+rendezvoused docked Earth orbit joint
+Apollo-Soyuz Test Project (ASTP) flight. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Because no
+spacewalks were planned, U.S. crewmen were equipped
+with modified A7LB intravehicular Apollo spacesuits
+fitted with a simple cover layer replacing the thermal
+micrometeoroid layer.Visitors to the Johnson Space Center in Houston, Texas, can see an exhibit of spacesuits.Suit SizingNew space suitscan be sized in
+space saving
+storage, deliveriesBy Karen SchmidtThe STS-79 mission will carry into orbit a new spacewalking suit designed to fit more than one astronaut andsave storage space, bringing tomorrow's International
+Space Station technology into today's missions.Extravehicular Activity space suits are the astronauts'lifeblood when they must work outside the protected
+environment of a space shuttle.",
+            "topic" : "Because no
+spacewalks planned, U.S. crewmen equipped
+with modified A7LB intravehicular Apollo spacesuits
+fitted simple cover layer replacing thermal
+micrometeoroid layer.Visitors Johnson Space Center Houston, Texas, see exhibit spacesuits.Suit SizingNew space suitscan sized in
+space saving
+storage, deliveriesBy Karen SchmidtThe STS-79 mission carry orbit new spacewalking suit designed fit one astronaut andsave storage space, bringing tomorrow's International
+Space Station technology today's missions.Extravehicular Activity space suits astronauts'lifeblood must work outside protected
+environment space shuttle. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Equipped with life
+support, an astronaut can spend up to seven hours
+performing maintenance tasks in the shuttle's cargo bay
+or on the future space station.",
+            "topic" : "Equipped life
+support, astronaut spend seven hours
+performing maintenance tasks shuttle's cargo bay
+or future space station. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "With EVA tasks expectedto increase during station assembly and operation, JSC,in cooperation with Hamilton Standard, ILC Dover,
+Air-Lock and Boeing Aerospace Operations, isrevamping space suits to save storage space, meetweight limits and reduce the amount of equipment
+required on flights to the station.One of the first phases of the redesign was to developa way to resize a suit faster on the ground and in orbit.",
+            "topic" : "With EVA tasks expectedto increase station assembly operation, JSC,in cooperation Hamilton Standard, ILC Dover,
+Air-Lock Boeing Aerospace Operations, isrevamping space suits save storage space, meetweight limits reduce amount equipment
+required flights station.One first phases redesign developa way resize suit faster ground orbit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Currently, ground technicians change suit sizes by
+lacing in different lengths of fabric inserts.",
+            "topic" : "Currently, ground technicians change suit sizes by
+lacing different lengths fabric inserts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""In order to make a suit fit an astronaut, techniciansmust change the inserts in the arms and legs of a suit,"
+said Ralph Anderson of the Flight Crew Equipment
+Management Office.",
+            "topic" : ""In order make suit fit astronaut, techniciansmust change inserts arms legs suit,"
+said Ralph Anderson Flight Crew Equipment
+Management Office. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""It is a long and cumbersome
+process that takes about 16 hours to prepare a suit for a
+particular astronaut.",
+            "topic" : ""It long cumbersome
+process takes 16 hours prepare suit a
+particular astronaut. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""Astronauts also are trained tochange-out inserts in the suits, but
+the process is slow and tedious,
+taking up valuable on-orbit time.",
+            "topic" : ""Astronauts also trained tochange-out inserts suits, but
+the process slow tedious,
+taking valuable on-orbit time. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The new design features sizing rings
+in both arms and legs that can be
+changed out in less time.",
+            "topic" : "The new design features sizing rings
+in arms legs be
+changed less time. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""With the enhanced sizing rings, asuit technician can change the size
+of a suit in less than 20 minutes,"
+Anderson added.Not only can suit technicians change the size of anEVA suit, the astronauts on orbit will have the same
+capability.",
+            "topic" : ""With enhanced sizing rings, asuit technician change size
+of suit less 20 minutes,"
+Anderson added.Not suit technicians change size anEVA suit, astronauts orbit same
+capability. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""That's the whole idea, multiple crew members canuse the same suit for space walks on the International
+Space Station," Anderson said.The new rings,made of aluminum,
+are available in 1/2
+size at the arm and
+thigh and three
+different sizes for the
+lower leg-1/2, 1 and 1
+1/2 inch.",
+            "topic" : ""That's whole idea, multiple crew members canuse suit space walks International
+Space Station," Anderson said.The new rings,made aluminum,
+are available 1/2
+size arm and
+thigh three
+different sizes the
+lower leg-1/2, 1 1
+1/2 inch. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "There also
+are four different sizes
+of leg segments and
+eight sizes of lowerarm segments that the astronauts can choose from.",
+            "topic" : "There also
+are four different sizes
+of leg segments and
+eight sizes lowerarm segments astronauts choose from. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "One
+leg attachment that fits from thigh to ankle can be sized
+up to three inches-with so many combinations, a single
+suit can be sized to fit a number of astronauts.",
+            "topic" : "One
+leg attachment fits thigh ankle sized
+up three inches-with many combinations, single
+suit sized fit number astronauts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""We will be able to carry a couple of suits and leavethem on the space station with enough sizing
+components to fit different astronauts, thereby
+eliminating the need to carry suits for specific astronauts
+on every flight," said Rodney Johnson, lead for the
+Training Extravehicular Mobility Unit Laboratory at
+Boeing.The design of the sizing ringsevolved from rings used on anadvance development suit.",
+            "topic" : ""We able carry couple suits leavethem space station enough sizing
+components fit different astronauts, thereby
+eliminating need carry suits specific astronauts
+on every flight," said Rodney Johnson, lead the
+Training Extravehicular Mobility Unit Laboratory at
+Boeing.The design sizing ringsevolved rings used anadvance development suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+major difference is that the new
+rings are threaded and twist on.",
+            "topic" : "The
+major difference new
+rings threaded twist on. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Each ring has two automatic spring
+locks and one manual lock.The new ring uses a pressure sealthat is an adaptation of the staticseal that we have been using for a decade and a half in
+disconnects found at the neck, gloves and waist," said
+Don Lacey of ILC Dover.",
+            "topic" : "Each ring two automatic spring
+locks one manual lock.The new ring uses pressure sealthat adaptation staticseal using decade half in
+disconnects found neck, gloves waist," said
+Don Lacey ILC Dover. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""Adapting proven designsreduced our learning curve tremendously.",
+            "topic" : ""Adapting proven designsreduced learning curve tremendously. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suit wasdesigned to meet the space station mission, but we will
+begin to reap the benefits of this new suit right away.",
+            "topic" : "The suit wasdesigned meet space station mission, will
+begin reap benefits new suit right away. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""In addition to the new rings,Adjustable Restraint Brackets
+also are being used for the j
+first time.",
+            "topic" : ""In addition new rings,Adjustable Restraint Brackets
+also used j
+first time. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "They allow
+astronauts to lengthen or
+shorten the arm and leg
+segments in smaller
+increments than the rings.",
+            "topic" : "They allow
+astronauts lengthen or
+shorten arm leg
+segments smaller
+increments rings. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""You can lengthen eitherend up to one half inch," said
+-Scott Cupples of ILC Dover,
+11 giving an astronaut a
+custom fit.",
+            "topic" : ""You lengthen eitherend one half inch," said
+-Scott Cupples ILC Dover,
+11 giving astronaut a
+custom fit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""The suits will fly for the firsttime on STS-79, but the big
+test will be on STS-82 when
+they will be used during scheduled space walks to
+service the Hubble Space Telescope.",
+            "topic" : ""The suits fly firsttime STS-79, big
+test STS-82 when
+they used scheduled space walks to
+service Hubble Space Telescope. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Because the
+position of the airlock on Discovery during STS-82effects its center of gravity, mission managers asked ifonly three suits could be flown for the four space
+walking astronauts.Mission Operations STS82 EMU Lead Paul Boehmand back-up Dana Weigel were able to answer 'yes'
+because of the new sizing capabilities.",
+            "topic" : "Because the
+position airlock Discovery STS-82effects center gravity, mission managers asked ifonly three suits could flown four space
+walking astronauts.Mission Operations STS82 EMU Lead Paul Boehmand back-up Dana Weigel able answer 'yes'
+because new sizing capabilities. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Mission
+Specialists Joe Tanner and Steve Smith will share one
+suit, bringing enough sizing rings and leg attachments to
+custom fit the two space walkers.",
+            "topic" : "Mission
+Specialists Joe Tanner Steve Smith share one
+suit, bringing enough sizing rings leg attachments to
+custom fit two space walkers. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""We are relying on these rings to accomplish a resizein a much shorter time," Boehm said.",
+            "topic" : ""We relying rings accomplish resizein much shorter time," Boehm said. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""It is going to be
+nice to havethe capability to do this on orbit, it gives us a lot moreflexibility and helps us focus on the primary objectivesof the mission.",
+            "topic" : ""It going be
+nice havethe capability orbit, gives us lot moreflexibility helps us focus primary objectivesof mission. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": """The sizing rings add a new, much needed capabilityto resize the EVA suits in flight," Tanner said.",
+            "topic" : """The sizing rings add new, much needed capabilityto resize EVA suits flight," Tanner said. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""This
+capability allows us to carry only three suits to
+accommodate four EVA crew members.",
+            "topic" : ""This
+capability allows us carry three suits to
+accommodate four EVA crew members. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The rings are
+very easy to use, requiring only a few minutes to change
+arm and or leg segments to fit another crew member.",
+            "topic" : "The rings are
+very easy use, requiring minutes change
+arm leg segments fit another crew member. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The rings don't restrict your motion in the suit in any
+way, in fact, I can't even tell they are there.",
+            "topic" : "The rings restrict motion suit any
+way, fact, I can't even tell there. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Other
+modifications that go along with the enhanced EMU
+allow crew members to make minor adjustments to arm
+and leg segment lengths that could previously only be
+made by a ground technician.",
+            "topic" : "Other
+modifications go along enhanced EMU
+allow crew members make minor adjustments arm
+and leg segment lengths could previously be
+made ground technician. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The end result is a better
+suit with more capability and flexibility to carry us into
+the station era.",
+            "topic" : "The end result better
+suit capability flexibility carry us into
+the station era. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""More redesigns are in the works.",
+            "topic" : ""More redesigns works. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Hard UpperTorso, or HUT, will be fitted with new quick disconnects
+instead of bolt on attachments that connect the Primary
+Life Support System.",
+            "topic" : "The Hard UpperTorso, HUT, fitted new quick disconnects
+instead bolt attachments connect Primary
+Life Support System. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These quick disconnects are
+expected to work better and faster and the pivot points
+at the shoulders of the current HUT will be deleted to
+give the astronauts better mobility and make the suit
+more robust.",
+            "topic" : "These quick disconnects are
+expected work better faster pivot points
+at shoulders current HUT deleted to
+give astronauts better mobility make suit
+more robust. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The new designed HUT also will remove
+four possible failure points that now exist in the older
+model.",
+            "topic" : "The new designed HUT also remove
+four possible failure points exist older
+model. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""If we had a space station today, this suit would beready to fly," said Tony Wagner, spacesuit subsystem
+manager in the Crew and Thermal System EMU Group.",
+            "topic" : ""If space station today, suit would beready fly," said Tony Wagner, spacesuit subsystem
+manager Crew Thermal System EMU Group. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ""We could leave it on the station for many space walks
+before it would have to return for maintenance.",
+            "topic" : ""We could leave station many space walks
+before would return maintenance. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It is
+certified and ready to go for EVA."",
+            "topic" : "It is
+certified ready go EVA." ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "From top to bottom, left to right: 1) From left, Rodney Johnson, lead for the Training Extravehicular Mobility Unit Laboratory at Boeing Aerospace Operations,demonstrates how the new enhanced sizing rings work to NASA Deputy Administrator John Dailey and JSC Director George Abbey.",
+            "topic" : "From top bottom, left right: 1) From left, Rodney Johnson, lead Training Extravehicular Mobility Unit Laboratory Boeing Aerospace Operations,demonstrates new enhanced sizing rings work NASA Deputy Administrator John Dailey JSC Director George Abbey. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "2) The new rings replace
+fabric sizing inserts that were hand laced into the suit by technicians, taking up to 16 hours to resize on suit.",
+            "topic" : "2) The new rings replace
+fabric sizing inserts hand laced suit technicians, taking 16 hours resize suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "3) Leg rings come in three different sizes
+assuring a custom fit for the astronauts.",
+            "topic" : "3) Leg rings come three different sizes
+assuring custom fit astronauts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "4) Another new design feature is an Adjustable Restraint Bracket that gives astronauts a second length adjustment
+feature in the arms and legs of the space suit.",
+            "topic" : "4) Another new design feature Adjustable Restraint Bracket gives astronauts second length adjustment
+feature arms legs space suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "5) From left, Robert Nicholson and Ron Lindsey prepare a suit in the flight EMU laboratory for STS-79.",
+            "topic" : "5) From left, Robert Nicholson Ron Lindsey prepare suit flight EMU laboratory STS-79. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "6)
+From left, Latonya Hagler and Nicholas Barnett check an arm ring assembly.MILESTONES AND CAPSULEHISTORYILC Dover, Inc.1947 International Latex Corp. dividesinto 4 separate divisions.",
+            "topic" : "6)
+From left, Latonya Hagler Nicholas Barnett check arm ring assembly.MILESTONES AND CAPSULEHISTORYILC Dover, Inc.1947 International Latex Corp. dividesinto 4 separate divisions. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "One is anoutgrowth of the specialty group
+named the Metals Division located at
+Pear and Mary Streets in Dover,
+Delaware.",
+            "topic" : "One anoutgrowth specialty group
+named Metals Division located at
+Pear Mary Streets Dover,
+Delaware. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Metals Division makes
+display racks for Playtex products
+such as girdles, swim caps, baby
+pants as well as life vests, life rafts,
+and ant-exposure clothing.",
+            "topic" : "The Metals Division makes
+display racks Playtex products
+such girdles, swim caps, baby
+pants well life vests, life rafts,
+and ant-exposure clothing. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The other
+three divisions become Playtex
+(rubber and fabric goods), Chemical
+Division (now known as Reichhold
+Chemical Co.) and the
+Pharmaceutical Division (which
+makes items such as throat
+lozenges).1952 Metals Division is awarded acontract to supply the Navy and AirForce with high altitude pressure
+helmets.",
+            "topic" : "The other
+three divisions become Playtex
+(rubber fabric goods), Chemical
+Division (now known Reichhold
+Chemical Co.) the
+Pharmaceutical Division (which
+makes items throat
+lozenges).1952 Metals Division awarded acontract supply Navy AirForce high altitude pressure
+helmets. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The work force at this time is
+about 30 people.1945 Stanley Warner Corp.purchases the controlling interest inthe International Latex Corp.1955 Metals Division changes itsname to the Special ProductsDivision.1956 The high altitude pressurehelmet contract is expanded toinclude high altitude pressure suits.",
+            "topic" : "The work force time is
+about 30 people.1945 Stanley Warner Corp.purchases controlling interest inthe International Latex Corp.1955 Metals Division changes itsname Special ProductsDivision.1956 The high altitude pressurehelmet contract expanded toinclude high altitude pressure suits. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The fact that the Special Products
+Division was involved in rubber
+compounding and dipping methods
+helped resolve the problems of flexible
+joints in these suits (elbows, knees,
+and waists).",
+            "topic" : "The fact Special Products
+Division involved rubber
+compounding dipping methods
+helped resolve problems flexible
+joints suits (elbows, knees,
+and waists). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Work continued on life
+rafts for the Army and prototype
+helmets for the space program.1958 Special Products Divisionbecame known as the IndustrialProducts Division.1960 Production is busy with soft-goods assembly   work   whichincludes ammunition pouches,harness straps and first aid pouches.A facility in Frederica is used as awarehouse to support this production.1962 The Industrial Products Divisionbegins work on the Apollo Space Suitas a subcontractor to Hamilton
+Standard.",
+            "topic" : "Work continued life
+rafts Army prototype
+helmets space program.1958 Special Products Divisionbecame known IndustrialProducts Division.1960 Production busy soft-goods assembly   work   whichincludes ammunition pouches,harness straps first aid pouches.A facility Frederica used awarehouse support production.1962 The Industrial Products Divisionbegins work Apollo Space Suitas subcontractor Hamilton
+Standard. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The work force at this time
+numbers 50.1964 The Industrial Products Divisionis re-named the Government andIndustrial Division.1966 Government and IndustrialDivision is awarded prime contract onthe Apollo Lunar Space Suit.",
+            "topic" : "The work force time
+numbers 50.1964 The Industrial Products Divisionis re-named Government andIndustrial Division.1966 Government IndustrialDivision awarded prime contract onthe Apollo Lunar Space Suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Our
+work force increases to 200.1966/1967 International LatexCorporation formally splits into threeseparate entities: IPC (Playtex),
+Standard Brands (now Reichhold),
+and ILC Industries (formally the
+Government and Industrial division).",
+            "topic" : "Our
+work force increases 200.1966/1967 International LatexCorporation formally splits threeseparate entities: IPC (Playtex),
+Standard Brands (now Reichhold),
+and ILC Industries (formally the
+Government Industrial division). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In Nov. '66 ILC Industries, Inc. is
+incorporated in the State of Delaware
+as a wholly owned subsidiary of
+Stanley Warner Corp. On Dec. 22
+1967 Stanley Warner Corp. is merged
+into the Glen Alden Corp.In 1967, the company developed at itsown expense, a barrier bag used to
+protect consumable-combustible
+cartridge cases for munitions.",
+            "topic" : "In Nov. '66 ILC Industries, Inc. is
+incorporated State Delaware
+as wholly owned subsidiary of
+Stanley Warner Corp. On Dec. 22
+1967 Stanley Warner Corp. merged
+into Glen Alden Corp.In 1967, company developed itsown expense, barrier bag used to
+protect consumable-combustible
+cartridge cases munitions. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+company eventually sold 475,000
+barrier bags to the US Army.Under an Air Force contract, ILCstarts the production of 384
+double-wall air supported structures
+in the Frederica facility.As a spin-off of the double-wallstructures, ILC starts designing,
+fabricating and installing single-wall
+air-supported structures used as
+warehouses, field houses, and tennis
+court and swimming pool enclosures.Drawing on experience gained on high
+altitude helmet manufacturing in the
+early 50's, ILC Industries, Inc. starts 8
+line of riot helmets and face-shields
+that were used by police and fire
+departments in larger cities during the
+late 1960's.",
+            "topic" : "The
+company eventually sold 475,000
+barrier bags US Army.Under Air Force contract, ILCstarts production 384
+double-wall air supported structures
+in Frederica facility.As spin-off double-wallstructures, ILC starts designing,
+fabricating installing single-wall
+air-supported structures used as
+warehouses, field houses, tennis
+court swimming pool enclosures.Drawing experience gained high
+altitude helmet manufacturing the
+early 50's, ILC Industries, Inc. starts 8
+line riot helmets face-shields
+that used police fire
+departments larger cities the
+late 1960's. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "At this time ILC Industries
+Inc. was manufacturing motorcycle
+helmets along with the Vari-Shield faceshield which was popular with
+motorcyclists and snow-mobilers alike.1968 Our combined work force InDover and Frederica numbers 755.At this time, 90% of the company'srevenues come from the space suit
+program.We begin production of 1000inflatable boats for the US Army.1969 In Jan. of 1969, ILC went publicand sold 225,000 shares of commonstock to the public at $7.25 a share.",
+            "topic" : "At time ILC Industries
+Inc. manufacturing motorcycle
+helmets along Vari-Shield faceshield popular with
+motorcyclists snow-mobilers alike.1968 Our combined work force InDover Frederica numbers 755.At time, 90% company'srevenues come space suit
+program.We begin production 1000inflatable boats US Army.1969 In Jan. 1969, ILC went publicand sold 225,000 shares commonstock public $7.25 share. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Glen Alden retained 70% ownership of
+the company.",
+            "topic" : "Glen Alden retained 70% ownership of
+the company. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "(All outstanding public
+shares were purchased by Rapid
+American, when they acquired Glen
+Alden)The proceeds of the sale were used topurchase Bio Medical Electronics Inc.,
+a producer of patient monitoring
+equipment that went out of business in
+1972.July 20, 1969 will be remembered bymany ILC employees to be one of the
+highlights of their lifetime.",
+            "topic" : "(All outstanding public
+shares purchased Rapid
+American, acquired Glen
+Alden)The proceeds sale used topurchase Bio Medical Electronics Inc.,
+a producer patient monitoring
+equipment went business in
+1972.July 20, 1969 remembered bymany ILC employees one the
+highlights lifetime. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Nell
+Armstrong, attired in an ILC Industries
+Inc. designed and manufactured
+Apollo space suit took man's first step
+on the moon.",
+            "topic" : "Nell
+Armstrong, attired ILC Industries
+Inc. designed manufactured
+Apollo space suit took man's first step
+on moon. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "An interesting fact of that
+mission and other lunar missions was
+that the space suit was the only item to
+be used on the lunar surface and
+brought back to earth, unlike their
+other flight equipment.",
+            "topic" : "An interesting fact that
+mission lunar missions was
+that space suit item to
+be used lunar surface and
+brought back earth, unlike their
+other flight equipment. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Our space suits
+were used on the remainder of the
+Apollo flights and in Skylab and the
+Apollo Soyuz Test Project.",
+            "topic" : "Our space suits
+were used remainder the
+Apollo flights Skylab the
+Apollo Soyuz Test Project. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "It is worth
+mentioning that of the 15 missions ourengineering and technical support (techwriting, drafting, test lab, etc.",
+            "topic" : "It worth
+mentioning 15 missions ourengineering technical support (techwriting, drafting, test lab, etc. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": ").1975 ILC Dover doses the Pear Streetfacility and consolidates the entireoperation in Frederica.Total operations are performed in45,000 fl2 of building and 2 inflatablestructures.",
+            "topic" : ").1975 ILC Dover doses Pear Streetfacility consolidates entireoperation Frederica.Total operations performed in45,000 fl2 building 2 inflatablestructures. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC rents the Frederica
+facility for a sum of $22,000 a year.Under a NASA contract ILC continuedspace suit development activities such
+as Lightweight Intra-vehicular Suit, an
+Improved Thermal Micrometeoroid
+Garment, an Emergency
+Intravehicular Suit and an Orbital
+Extravehicular Suit.ILC Dover wins a contract with theDefense Personnel support Center to
+manufacture goggles for military use.",
+            "topic" : "ILC rents Frederica
+facility sum $22,000 year.Under NASA contract ILC continuedspace suit development activities such
+as Lightweight Intra-vehicular Suit, an
+Improved Thermal Micrometeoroid
+Garment, Emergency
+Intravehicular Suit Orbital
+Extravehicular Suit.ILC Dover wins contract theDefense Personnel support Center to
+manufacture goggles military use. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "These goggles have multiple lenses to
+protect against sun, wind, and dust.",
+            "topic" : "These goggles multiple lenses to
+protect sun, wind, dust. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC makes about 100,000 pairs of
+goggles a year for several years.1976 ILC Dover wins a contract todevelop the DPE, a highly reliable,mobile, leak-free, disposable
+ensemble for use in lethal chemical
+environments.",
+            "topic" : "ILC makes 100,000 pairs of
+goggles year several years.1976 ILC Dover wins contract todevelop DPE, highly reliable,mobile, leak-free, disposable
+ensemble use lethal chemical
+environments. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This is for the Army's
+Chemical Systems Laboratory in
+Aberdeen, MD, now known as
+CBDCOM.",
+            "topic" : "This Army's
+Chemical Systems Laboratory in
+Aberdeen, MD, known as
+CBDCOM. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This contract leads to our
+Chemturion suit line introduced in
+1979.Today, Chemturions are being usedby the EPA, NIOSH, the Center for
+Disease Control in Atlanta, and many
+industrial companies such as DuPont,
+Dow, Georgia Pacific and Eli Lilly.1977 ILC Dover is awarded thecontract to develop, certify andmanufacture the Shuttle Space Suit.",
+            "topic" : "This contract leads our
+Chemturion suit line introduced in
+1979.Today, Chemturions usedby EPA, NIOSH, Center for
+Disease Control Atlanta, many
+industrial companies DuPont,
+Dow, Georgia Pacific Eli Lilly.1977 ILC Dover awarded thecontract develop, certify andmanufacture Shuttle Space Suit. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC will subcontract to Hamilton
+Standard.",
+            "topic" : "ILC subcontract Hamilton
+Standard. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We grow to 100
+employees.ILC Dover develops a protectivegarment for use by the Environ-
+mental          Protective           AgencyInspectors In hazardous environments
+such as rail, truck and industrial
+chemical spills.ILC Industries, Inc. is purchased byRapid American Corp. from Glen
+Alden Corp.1978 ILC Dover further expands afterbeing awarded a NASA contract toprovide Crew Equipment and Stowage
+Provisions for the Space Shuttle.",
+            "topic" : "We grow 100
+employees.ILC Dover develops protectivegarment use Environ-
+mental          Protective           AgencyInspectors In hazardous environments
+such rail, truck industrial
+chemical spills.ILC Industries, Inc. purchased byRapid American Corp. Glen
+Alden Corp.1978 ILC Dover expands afterbeing awarded NASA contract toprovide Crew Equipment Stowage
+Provisions Space Shuttle. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC
+Dover opens a new facility near
+Houston's Johnson Space Center, and
+starts a new division named ILC
+Space Systems.1980 ILC Dover is awarded a contractto design and fabricate theCyclocrane.",
+            "topic" : "ILC
+Dover opens new facility near
+Houston's Johnson Space Center, and
+starts new division named ILC
+Space Systems.1980 ILC Dover awarded contractto design fabricate theCyclocrane. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Cyclocrane is a
+hybrid aerostat with wings.",
+            "topic" : "The Cyclocrane a
+hybrid aerostat wings. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Each wing
+has its own engine and propeller for
+lift and directional capability.",
+            "topic" : "Each wing
+has engine propeller for
+lift directional capability. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+Cyclocrane is test flown In Oregon in
+1983.1981 ILC Dover is awarded a contractto develop collapsible fuel and watertanks for the Army.",
+            "topic" : "The
+Cyclocrane test flown In Oregon in
+1983.1981 ILC Dover awarded contractto develop collapsible fuel watertanks Army. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Over a 9 year
+period our designs of 3,000 gal.",
+            "topic" : "Over 9 year
+period designs 3,000 gal. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "through 210,000 gal.",
+            "topic" : "210,000 gal. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "(5,000 barrel)
+tanks are manufactured on an around
+the dock work schedule.",
+            "topic" : "(5,000 barrel)
+tanks manufactured around
+the dock work schedule. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "In this 9-year
+period 5,280 tanks are manufactured.We purchase the Frederica facility,which at that time consisted of
+Building #1 plus 35 acres of land.",
+            "topic" : "In 9-year
+period 5,280 tanks manufactured.We purchase Frederica facility,which time consisted of
+Building #1 plus 35 acres land. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Funds for this purchase are obtained
+from the State of Delaware via an
+Economic Development program that
+provides low interest rate loans to
+expanding businesses within the state.At peak employment times ourcompany population rises to 418.ILC Dover is awarded a contractthrough NASA and the Air Force to
+design and manufacture the Propellant
+Handlers Ensemble (PHE).",
+            "topic" : "Funds purchase obtained
+from State Delaware via an
+Economic Development program that
+provides low interest rate loans to
+expanding businesses within state.At peak employment times ourcompany population rises 418.ILC Dover awarded contractthrough NASA Air Force to
+design manufacture Propellant
+Handlers Ensemble (PHE). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The suits
+are  used  to  protect  the  handlers  ofsuits were flown on, they performed
+flawlessly.1970 our work force has grown togoo.",
+            "topic" : "The suits
+are  used   protect   handlers  ofsuits flown on, performed
+flawlessly.1970 work force grown togoo. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC Industries Inc. wins acontract to rebuild portions of the
+Family 11 200,000 cubic foot balloons
+in conjunction with the Air Force.",
+            "topic" : "ILC Industries Inc. wins acontract rebuild portions the
+Family 11 200,000 cubic foot balloons
+in conjunction Air Force. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This
+leads to the design and manufacture
+of a variety of Aerostats that are still
+being manufactured today for use in
+the United States' drug interdiction
+efforts.In 1970 ILC Ind.",
+            "topic" : "This
+leads design manufacture
+of variety Aerostats still
+being manufactured today use in
+the United States' drug interdiction
+efforts.In 1970 ILC Ind. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Inc. purchasedSteinthal & Company Inc., an
+established manufacturer of military
+parachutes in Roxboro, N.C.",
+            "topic" : "Inc. purchasedSteinthal & Company Inc., an
+established manufacturer military
+parachutes Roxboro, N.C. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+company was eventually sold in 1976.1971 ILC Industries Inc. expands withthe purchase of the Data DeviceCorporation located in Bohemia, NY.",
+            "topic" : "The
+company eventually sold 1976.1971 ILC Industries Inc. expands withthe purchase Data DeviceCorporation located Bohemia, NY. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Data Device is engaged in the
+research and development,
+manufacture, and sale of advanced
+electronic components.The Dover operation becomes knownas ILC Dover, a Division of ILC
+Industries, Inc.ILC Dover manufactures and marketsa line of goggles used by skiers.",
+            "topic" : "Data Device engaged the
+research development,
+manufacture, sale advanced
+electronic components.The Dover operation becomes knownas ILC Dover, Division ILC
+Industries, Inc.ILC Dover manufactures marketsa line goggles used skiers. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "They
+are known as 'ILC GOGGS".1973 ILC Dover designs andmanufactures a liquid cooling vestthat is a spin-off of the cooling
+garment used by, the astronauts.",
+            "topic" : "They
+are known 'ILC GOGGS".1973 ILC Dover designs andmanufactures liquid cooling vestthat spin-off cooling
+garment used by, astronauts. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The
+'Cool Vest* m becomes an industry
+standard and is still being marketed
+by ILC Dover, Inc.1974 Skylab program ends and ILCDover experiences a major reductionin the work force.",
+            "topic" : "The
+'Cool Vest* becomes industry
+standard still marketed
+by ILC Dover, Inc.1974 Skylab program ends ILCDover experiences major reductionin work force. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Over a 2-year
+period the work force in Delaware is
+down to only 25 people.Manufacturing moves from Dover tothe   Frederica   facility   followed   byXM40 Development contract is wonby ILC Dover to design and develop a
+replacement for the M17 Gas Mask.1984 Kathy Sullivan is the first USWoman to walk in space, anothermilestone for ILC.",
+            "topic" : "Over 2-year
+period work force Delaware is
+down 25 people.Manufacturing moves Dover tothe   Frederica   facility   followed   byXM40 Development contract wonby ILC Dover design develop a
+replacement M17 Gas Mask.1984 Kathy Sullivan first USWoman walk space, anothermilestone ILC. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "She wears our
+Shuttle Suit.ILC Dover becomes incorporated onJune 27, 1984.",
+            "topic" : "She wears our
+Shuttle Suit.ILC Dover becomes incorporated onJune 27, 1984. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Its new name is ILC
+Dover, Inc.1986 Building 4 is erected adding33,000 more sq.",
+            "topic" : "Its new name ILC
+Dover, Inc.1986 Building 4 erected adding33,000 sq. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ft.",
+            "topic" : "ft. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This becomes theBalloon production area.",
+            "topic" : "This becomes theBalloon production area. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Also
+Building #5 (13,500 sq.",
+            "topic" : "Also
+Building #5 (13,500 sq. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ft) is built.ILC Dover is awarded the contract todevelop an improved Collective
+Protective System (M28), better
+known internally as SCPE, for the US
+Army.1987 ILC Dover wins, a contract withBoeing to finalize design and qualifythe AERP Hood/Mask for Air Force
+use.ILC Dover is awarded a contract fromthe Air Force to develop a new
+Transportable Collective Protective
+System (TCPS) for use in chemical
+and biological environments.ILC begins work on the MK IIIadvanced development space suit.Build #6 (12,000 sq.",
+            "topic" : "ft) built.ILC Dover awarded contract todevelop improved Collective
+Protective System (M28), better
+known internally SCPE, US
+Army.1987 ILC Dover wins, contract withBoeing finalize design qualifythe AERP Hood/Mask Air Force
+use.ILC Dover awarded contract fromthe Air Force develop new
+Transportable Collective Protective
+System (TCPS) use chemical
+and biological environments.ILC begins work MK IIIadvanced development space suit.Build #6 (12,000 sq. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ft) is built.1988 ILC Dover wins productioncontract for the Chemical BiologicalProtective mask (M40).",
+            "topic" : "ft) built.1988 ILC Dover wins productioncontract Chemical BiologicalProtective mask (M40). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We built at a
+rate of 15,000 a month.ILC is awarded a contract fromGeneral Electric for five 595K balloon
+systems.1989 ILC Dover under contract fromHoneywell begins production of Ramliquid rocket fuel.",
+            "topic" : "We built a
+rate 15,000 month.ILC awarded contract fromGeneral Electric five 595K balloon
+systems.1989 ILC Dover contract fromHoneywell begins production Ramliquid rocket fuel. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "550 suits aremanufactured.1982 Mr. Homer Reihm is namedPresident and General Manager ofILC Dover, Inc. At this same time
+John McMullen and Carl Zlock are
+named Vice Presidents.",
+            "topic" : "550 suits aremanufactured.1982 Mr. Homer Reihm namedPresident General Manager ofILC Dover, Inc. At time
+John McMullen Carl Zlock are
+named Vice Presidents. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Mr. Reihm
+was our Vice President and General
+Manager from 1976.Rapid American sells ILC Industriesto Mr. Leonard Lane.",
+            "topic" : "Mr. Reihm
+was Vice President General
+Manager 1976.Rapid American sells ILC Industriesto Mr. Leonard Lane. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The Lane family
+still owns the company today.Building 2 is erected adding 38,000sq.",
+            "topic" : "The Lane family
+still owns company today.Building 2 erected adding 38,000sq. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ft. to our facilities.ILC Dover is awarded the advanceddevelopment phase of the M43
+Hood/Mask integrated with a battery
+powered motor blower filtering
+system, for use on the Apache
+helicopter.Torpedo recovery bags are developedand manufactured through a contract
+with Rocket Research.",
+            "topic" : "ft. facilities.ILC Dover awarded advanceddevelopment phase M43
+Hood/Mask integrated battery
+powered motor blower filtering
+system, use Apache
+helicopter.Torpedo recovery bags developedand manufactured contract
+with Rocket Research. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Bags are used
+to float Navy practice torpedoes for
+reuse.",
+            "topic" : "Bags used
+to float Navy practice torpedoes for
+reuse. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC receives multiple orders
+for additional bags over the years we
+continue to receive refurbishment
+contracts.1983 ILC Dover again is in theforefront of the United States spaceprogram.",
+            "topic" : "ILC receives multiple orders
+for additional bags years we
+continue receive refurbishment
+contracts.1983 ILC Dover theforefront United States spaceprogram. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Our Shuttle Suit is used on
+STS-6 for EVA (the first flight of the
+Challenger) in conjunction with a
+satellite launch.",
+            "topic" : "Our Shuttle Suit used on
+STS-6 EVA (the first flight the
+Challenger) conjunction a
+satellite launch. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This marks the first
+American to walk in space since
+1974.ILC Dover under contract fromAerojet begins its first semi--
+automated assembly line, which
+turns out 1,318,680 Air-inflated
+Decelerator Systems (AIDS) through
+1988.Building 3 is erected to addproduction floor space of 38,000 sq.",
+            "topic" : "This marks first
+American walk space since
+1974.ILC Dover contract fromAerojet begins first semi--
+automated assembly line, which
+turns 1,318,680 Air-inflated
+Decelerator Systems (AIDS) through
+1988.Building 3 erected addproduction floor space 38,000 sq. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ft. Our M40 mask production line is
+in this area now.Air Decelerator (RAD) cup assemblies.",
+            "topic" : "ft. Our M40 mask production line is
+in area now.Air Decelerator (RAD) cup assemblies. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Production runs for 1 year with
+1,843,000 units produced.ILC (Antigua), LTD. becomes an
+offshore soft-goods manufacturing
+facility.",
+            "topic" : "Production runs 1 year with
+1,843,000 units produced.ILC (Antigua), LTD. becomes an
+offshore soft-goods manufacturing
+facility. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "RADs are manufactured there
+along with the M40 Carriers and the
+HGU-41/P Hoods.1990 ILC Dover is awarded aproduction contract for CollectiveProtection Systems (M28 and M200).A Protective Integrated Hood Mask(PIHM) contract is awarded by Boeing
+to ILC Dover.",
+            "topic" : "RADs manufactured there
+along M40 Carriers the
+HGU-41/P Hoods.1990 ILC Dover awarded aproduction contract CollectiveProtection Systems (M28 M200).A Protective Integrated Hood Mask(PIHM) contract awarded Boeing
+to ILC Dover. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "5,300 hood/masks are
+produced.",
+            "topic" : "5,300 hood/masks are
+produced. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC Dover enters the world of
+advanced composites.",
+            "topic" : "ILC Dover enters world of
+advanced composites. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "We are
+awarded a contract from the Garret
+Corp. to develop spinner cones for
+use on jet aircraft engines.1991 ILC Dover is awarded a contractfrom the US Air Force to manufacture10,500 PIHMs.ILC is awarded a contract by AlliantTechsystems to manufacture 100,000
+heat-sealed AIDS for use on Navy
+Tomahawk missiles.1992 ILC Dover is awarded a contractfrom Boeing to develop and fabricatethe Upper Pressure Garment, Lower
+G Garment, and Air Cooling Garment
+of the F22 Aircraft Life Support
+System.",
+            "topic" : "We are
+awarded contract Garret
+Corp. develop spinner cones for
+use jet aircraft engines.1991 ILC Dover awarded contractfrom US Air Force manufacture10,500 PIHMs.ILC awarded contract AlliantTechsystems manufacture 100,000
+heat-sealed AIDS use Navy
+Tomahawk missiles.1992 ILC Dover awarded contractfrom Boeing develop fabricatethe Upper Pressure Garment, Lower
+G Garment, Air Cooling Garment
+of F22 Aircraft Life Support
+System. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ILC Dover Is awarded a contract from
+Loral for the detailed design and
+fabrication of 8 each 420,000 cubic
+feet aerostats.ILC Dover is awarded a contract forthe partial design and full fabrication
+of a 620,000 cu.",
+            "topic" : "ILC Dover Is awarded contract from
+Loral detailed design and
+fabrication 8 420,000 cubic
+feet aerostats.ILC Dover awarded contract forthe partial design full fabrication
+of 620,000 cu. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "ft. logging balloon.",
+            "topic" : "ft. logging balloon. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "Due to Its success another balloon is
+awarded in 1993.ILC Dover is awarded a contract fromthe Air Force for the first of three 275K
+Aerostats.1993 ILC Space System Division issold to Oceaneering Space Systems,Inc.",
+            "topic" : "Due Its success another balloon is
+awarded 1993.ILC Dover awarded contract fromthe Air Force first three 275K
+Aerostats.1993 ILC Space System Division issold Oceaneering Space Systems,Inc. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "of Houston, TX-ILC installed its first Vapor GuardTank Cover at Relchhold Chemical
+Corp. in Cheswold, Delaware.1994 ILC Dover is awarded a contractby the German company Zeppelin forthe detailed design and fabrication of
+a hybrid airship envelope.ILC Dover is awarded a contract fromNASA's Jet Propulsion Lab (JPL) to
+develop and manufacture the airbag
+landing system for the Mars
+Pathfinder Mission.ILC produces our 500,000th M40 onDecember 9, 1994.1995 ILC is awarded a contract todesign, develop and test an IntegratedBallistic Helmet (1131-1).",
+            "topic" : "Houston, TX-ILC installed first Vapor GuardTank Cover Relchhold Chemical
+Corp. Cheswold, Delaware.1994 ILC Dover awarded contractby German company Zeppelin forthe detailed design fabrication of
+a hybrid airship envelope.ILC Dover awarded contract fromNASA's Jet Propulsion Lab (JPL) to
+develop manufacture airbag
+landing system Mars
+Pathfinder Mission.ILC produces 500,000th M40 onDecember 9, 1994.1995 ILC awarded contract todesign, develop test IntegratedBallistic Helmet (1131-1). ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This is
+followed by an order for 741
+production units.ILC Dover teams with FPT IndustriesLtd.",
+            "topic" : "This is
+followed order 741
+production units.ILC Dover teams FPT IndustriesLtd. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "to be their US manufacturer of
+fuel cells.",
+            "topic" : "US manufacturer of
+fuel cells. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The fuel cells are for the
+V22 Osprey aircraft manufactured by
+Boeing Helicopter, and are required to
+withstand gunfire and crash impact
+with minimal damage.1996 ILC wins a contract with satellitemanufacturer TRW to performpreliminary development of a Space
+Rigidizable Antenna to enhance
+satellite communications systems
+such as cell phones and Direct TV.ILC again begins work to put peopleon the moon, performing a study for
+the design of an Inflatable Lunar
+Habitat.In November of 1996, ILC is awardeda contract to build 184,000 M40
+masks.ILC is awarded a contract to developthe Hasty Hide Shelter for the US
+Special forces.",
+            "topic" : "The fuel cells the
+V22 Osprey aircraft manufactured by
+Boeing Helicopter, required to
+withstand gunfire crash impact
+with minimal damage.1996 ILC wins contract satellitemanufacturer TRW performpreliminary development Space
+Rigidizable Antenna enhance
+satellite communications systems
+such cell phones Direct TV.ILC begins work put peopleon moon, performing study for
+the design Inflatable Lunar
+Habitat.In November 1996, ILC awardeda contract build 184,000 M40
+masks.ILC awarded contract developthe Hasty Hide Shelter US
+Special forces. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "This camouflage
+system              enables
+theindividual to conceal themselves
+during multiple day missions.Dec.",
+            "topic" : "This camouflage
+system              enables
+theindividual conceal themselves
+during multiple day missions.Dec. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "4th 1996 - Mars PathfinderMission launches from Cape
+Canaveral with ILC's Alrbag Landing
+System aboard.",
+            "topic" : "4th 1996 - Mars PathfinderMission launches Cape
+Canaveral ILC's Alrbag Landing
+System aboard. ",
+            "agree" : false
+        } ,
+
+        {
+            "class" : 0
+            "phrase": "The scheduled
+landing date is July 4, 1997.",
+            "topic" : "The scheduled
+landing date July 4, 1997. ",
+            "agree" : false
+        } 
+
+    ]
+}

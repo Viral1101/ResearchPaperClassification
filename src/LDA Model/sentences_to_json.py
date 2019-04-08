@@ -15,7 +15,6 @@ class Sentence :
         self.classification = classification
 
     def get_topic(self) :
-        '''constructs a topic from the sentence by filtering out all of the stopwords'''
 
         topic = str()
 
@@ -24,8 +23,8 @@ class Sentence :
             if word not in STOPWORDS :
 
                 topic += word + " "
-            
-        return topic[:-1]
+
+        return topic
 
 class JSON_File :
 
@@ -37,8 +36,6 @@ class JSON_File :
         self.data = str()
 
     def get_sentences(self , sentence_texts , sentence_classifications) :
-        '''receives a list of sentences (strings) and a list of classifications (numbers 0-2)'''
-        '''constructs Sentence objects and appends them to self.sentences'''
 
         for sentence_text , sentence_classification in zip(sentence_texts , sentence_classifications) :
 
@@ -49,7 +46,7 @@ class JSON_File :
         self.phrases = phrases
 
     def get_data(self) :
-        '''constructs the json file data as a string containing Sentence objects'''
+
 
         self.data += \
 """
@@ -67,7 +64,7 @@ class JSON_File :
             "topic" : "{}",
             "agree" : {}
         }} {}
-""".format(sentence.classification , sentence.text , sentence.get_topic() , "false" , "," if i < len(self.sentences) - 1 else "")
+""".format(sentence.classification , sentence.text , sentence.get_topic() , "False" , "," if i < len(self.sentences) - 1 else "")
 
 
         self.data += \
@@ -77,7 +74,6 @@ class JSON_File :
 """
 
     def write_data(self) :
-        '''writes the data collected from sthe lists of sentences and classifications to a json file'''
 
         with open("json_example.json" , "w") as writer :
 
@@ -89,16 +85,16 @@ class JSON_File :
 
 
 def sentences_classifications_to_json(sentences , classifications) :
-    '''main function'''
 
     json = JSON_File()
 
     json.get_sentences(sentences , classifications)
     json.get_data()
     json.display_data()
-    json.write_data()
+    return json.data
+    # json.write_data()
 
-
+'''
 file_name = "example.pdf"
 
 sentences_classifications_to_json(
@@ -107,3 +103,8 @@ sentences_classifications_to_json(
     Model.get_classification_list(file_name)
 
 )
+'''
+
+
+
+
