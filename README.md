@@ -3,8 +3,25 @@
 The user is able to upload a .pdf file that will be assigned 3 different concepts: Core, Peripheral, and Other.
 The file will be parsed and split into smaller phrases to be designated their descriptions based on how relevant the phrase is to the main topic of the .pdf text.
 
+Relevancy of the phrases is determined by a network with input layer size 1024, 2 dense hidden layers also 1024. Output is size 3 with softmax activation.
 
-Relevancy of the phrases is determined by a network with input layer size 1024, 2 dense hidden layers also 1024. Output is size 3 with softmax activation. The model searches for the highest used n-grams inside the .pdf text and seperates them into 3 topics using an LDA (Latent Dirichlet allocation). To obtain n-grams word embedding is used on each sentence to encode and store into a 256 vector. The same is done for the LDA topics. All data is passed through the input layer and results are calculated.
+![Screenshot](https://i.imgur.com/ZVACR1r.png)<br/>
+<br/>
 
+The model searches for the highest used n-grams inside the .pdf text and  stores them into a list for future use. LDA (Latent Dirichlet allocation) is used to seperate the .pdf text into three distinct groups of words unsupervised (topics) and saved..
 
-The results are returned to the user on the screen and is able to judge by "Accept/Reject" based on their opinion if the classification predicted by the model is suited for the phrase. The user input is obtained and used to see the count of false positives, true negatives, true positives, as well as the accuracy based on the user's judgment.
+![Screenshot](https://i.imgur.com/XAK09ri.png)<br/>
+<br/>
+
+ The top n-grams are searched for and are now word embedded, using a word2vac model from pdfs, and put into a vector, the same embedding is done to the three topics previously created by the LDA
+ 
+ ![Screenshot](https://i.imgur.com/CA74LnU.png)<br/>
+ <br/>
+ 
+ 
+ The data will all put into a Model object which calculates classification using its member functions.
+ ![Screenshot](https://i.imgur.com/XIqUQJp.png)
+ 
+
+ 
+The results are returned to the user on the screen and is able to judge by "Accept/Reject" based on their opinion if the classification predicted by the model is suited for the phrase. The user input is recieved as a True and False and entered into a list. The user input list is compared to the predicted list using the resulting output to count the false positives, true negatives, true positives, as well as the calcilate accuracy based on the user's judgment.
