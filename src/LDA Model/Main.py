@@ -1,41 +1,50 @@
 import Model
 import Processing
 from sentences_to_json import *
-import urllib.request
-
-url = "https://firebasestorage.googleapis.com/v0/b/researchclassification.appspot.com/o/docs%2Ftp53.pdf?alt=media&token=33b5d344-07ed-4c09-9d6a-7cea18747b25"
-destination = "/Users/iamjo/Desktop/destination/something.pdf"
-
-def get_file(url) :
-
-    urllib.request.urlretrieve(url, destination)
+import os
+import wget
 
 
-if __name__ == '__main__':
+def getJSON(url):
+
+    #getting pdf file
+
+    #url = "http://downloads.bbc.co.uk/worldservice/learningenglish/ask_about_english/pdfs/aae_sf_something_of_a.pdf"
+
+    wget.download(url , out = "something.pdf")
+
+    #end getting pdf file
 
 
-    filename = 'example_4.pdf'
+    filename = 'something.pdf'
     preprocessed_file = Processing.preprocess_file(filename)
     x = Model.create_input_vector(filename)
-
     classifications = Model.classify(x)
 
     data = Processing.readPDF(filename)
-
-#url and id
 
     sentences = Processing.get_sentences(data)
     for i in range(0, len(sentences)):
         print(Processing.format_sentence(sentences[i]))
         print(classifications[i])
 
-    get_file(url)
-    json = JSON_File()
+    #output to json
 
-    json.get_sentences(sentences, classifications)
-    json.get_data()
-    json.display_data()
-    json.write_data()
+    sentences = Model.get_sentence_list(filename)
+    classifications = Model.get_classification_list(filename)
 
+    output = sentences_classifications_to_json(
 
+        sentences,
+        classifications
+
+    )
+
+    # os.remove(filename)
+    return output
     # Model.train_model(x, classifications)
+
+
+# if __name__ == '__main__':
+#     url = "http://downloads.bbc.co.uk/worldservice/learningenglish/ask_about_english/pdfs/aae_sf_something_of_a.pdf"
+#     print("THE END: ", getJSON(url))
