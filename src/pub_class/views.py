@@ -1,8 +1,8 @@
 import pyrebase
 from django.shortcuts import render
 from django.contrib.auth import views as auth_views
-from django.http import StreamingHttpResponse
-import Main
+from pub_class.Main import *
+
 
 config = {
     "apiKey": "AIzaSyBFGDWiQz7cDvw-hFdYidFpWWeMWqPF078",
@@ -71,8 +71,10 @@ def postsign(request):
     count = 0
 
     docs = database.child('users').child(a).child('pubs').shallow().get().val()
-    if len(docs):
+    if docs is not None:
         count = len(docs)
+    else:
+        count = 0
 
     return render(request, "index.html", {'e': name, 'count': count})
 
@@ -157,13 +159,13 @@ def post_create(request):
     url = info['url']
     # pub = info['pub_id']
 
-    print(url)
+    print((url,))
 
     data = []
 
     title = "Temp Name"
 
-    print("mili" + str(millis))
+    # print("mili" + str(millis))
     work = request.POST.get('work')
     progress = request.POST.get('progress')
     # url = request.POST.get('url')
@@ -193,7 +195,7 @@ def post_create(request):
         ]
     }
 
-    phrase_list = {
+    phrase_list2 = {
         "phrases":
         [
             {
@@ -211,12 +213,19 @@ def post_create(request):
         ]
     }
 
+    phrase_list = getJSON(url)
+    phrase_list = json.loads(phrase_list)
+    print(phrase_list)
+
     data = {
         "title": title,
         "url": url,
         "authors": authors['authors'],
-        "phrases": phrase_list['phrases']
+        "phrases": phrase_list
     }
+
+    # print(phrase_list)
+    # data['phrases'].append(json.load(phrase_list))
 
     database.child('users').child(a).child('pubs').child(millis).set(data)
     # database.child('users').child(a).child('pubs').child(millis).update(authors)

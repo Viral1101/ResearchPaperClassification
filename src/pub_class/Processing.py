@@ -31,7 +31,7 @@ def get_words(data):
 
         new_word = ""
         for char in word:
-            if char.isalnum():
+            if char.isalpha():
                 new_word += char
         word = new_word
 
@@ -65,6 +65,8 @@ def accept_char(char):
     elif char.isspace():
         return True
     elif char in string.punctuation:
+        return True
+    elif char not in string.printable:
         return True
     else:
         return False

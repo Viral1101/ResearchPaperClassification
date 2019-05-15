@@ -1,8 +1,7 @@
-
-
-
 from nltk.corpus import stopwords
-import Model
+import pub_class.Model as Model
+# import Model as Model
+import json
 
 STOPWORDS = stopwords.words("english")
 
@@ -47,31 +46,17 @@ class JSON_File :
 
     def get_data(self) :
 
-
-        self.data += \
-"""
- {
-    "phrases" :
-    [
-"""
-        for i , sentence in enumerate(self.sentences) :
-
-            self.data += \
-"""
-        {{
-            "class" : {}
-            "phrase": "{}",
-            "topic" : "{}",
-            "agree" : {}
-        }} {}
-""".format(sentence.classification , sentence.text , sentence.get_topic() , "False" , "," if i < len(self.sentences) - 1 else "")
-
-
-        self.data += \
-"""
-    ]
-}
-"""
+        self.data = json.dumps(
+            {"phrases":
+             [
+                 {
+                     "class": int(sentence.classification),
+                     "phrase": sentence.text,
+                     "topic": sentence.get_topic(),
+                     "agree": False
+                 }for sentence in self.sentences
+             ]}
+        )
 
     def write_data(self) :
 
@@ -91,8 +76,9 @@ def sentences_classifications_to_json(sentences , classifications) :
     json.get_sentences(sentences , classifications)
     json.get_data()
     json.display_data()
-    return json.data
+    return json.loads(json.data)
     # json.write_data()
+    # return "json_example.json"
 
 '''
 file_name = "example.pdf"

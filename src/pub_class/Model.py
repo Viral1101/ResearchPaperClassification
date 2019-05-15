@@ -4,8 +4,8 @@ from keras import optimizers
 import nltk
 import gensim
 import numpy as np
-import Processing
-
+import pub_class.Processing as Processing
+# import Processing as Processing
 
 def get_model(filename):
     try:
@@ -64,7 +64,7 @@ def create_input_vector(filename):
     dictionary = gensim.corpora.Dictionary(preprocessed_files)
     bow_corpus = [dictionary.doc2bow(file) for file in preprocessed_files]
 
-    topic_amount = 3
+    topic_amount = 5
     topic_list = list()
 
     lda_model = gensim.models.LdaMulticore(bow_corpus, num_topics=topic_amount, id2word=dictionary, passes=100, workers=2)
@@ -77,49 +77,53 @@ def create_input_vector(filename):
             word_list.append(word[0])
         topic_list.append(word_list)
 
+    return list(dict.fromkeys(np.array(topic_list).flat))
+
     # Create word2vec model from PDFs
-    word2vec_model = gensim.models.Word2Vec(preprocessed_files, size=256, window=5, min_count=1, workers=4)
-
-    # Encode most found n-grams using word2vec model
-    top_ngrams_encoded = list()
-    for ngram in top_ngram_list:
-        top_ngrams_encoded.append(Processing.encode_ngram(word2vec_model, ngram))
-
-    # Encode Topics using word2vec model
-    topic_list_encoded = list()
-    for i in range(0, topic_amount):
-        word_list = list()
-        words = lda_model.show_topic(i, 10)
-        for word in words:
-            word_list.append(word[0])
-        topic_list_encoded.append(Processing.encode_ngram(word2vec_model, word_list))
-
-
-    # Tokenize the data by sentences
-    sentence_list_encoded = list()
-
-    sentences = Processing.get_sentences(Processing.readPDF(filename))
-    for sentence in sentences:
-        i = 0
-        sentence_list_encoded.append(np.zeros(256))
-        words = Processing.get_words(sentence)
-        for ngram in top_ngram_list:
-            if set(ngram) <= set(words):
-                index = top_ngram_list.index(ngram)
-                ngram_encoded = top_ngrams_encoded[index]
-                for j in range(0, 256):
-                    sentence_list_encoded[i][j] += ngram_encoded[j]
-        i += 1
-
-    encoded_input = list()
-    for i in range(0, len(sentence_list_encoded)):
-        row = list()
-        row.extend(sentence_list_encoded[i])
-        for topic in topic_list_encoded:
-            row.extend(topic)
-        encoded_input.append(row)
-
-    return np.array(encoded_input)
+    # word2vec_model = gensim.models.Word2Vec(preprocessed_files, size=256, window=5, min_count=1, workers=4)
+    #
+    # # Encode most found n-grams using word2vec model
+    # top_ngrams_encoded = list()
+    # for ngram in top_ngram_list:
+    #     top_ngrams_encoded.append(Processing.encode_ngram(word2vec_model, ngram))
+    #
+    # # Encode Topics using word2vec model
+    # topic_list_encoded = list()
+    # for i in range(0, topic_amount):
+    #     word_list = list()
+    #     words = lda_model.show_topic(i, 10)
+    #     for word in words:
+    #         word_list.append(word[0])
+    #     topic_list_encoded.append(Processing.encode_ngram(word2vec_model, word_list))
+    #
+    #
+    # # Tokenize the data by sentences
+    # sentence_list_encoded = list()
+    #
+    # sentences = Processing.get_sentences(Processing.readPDF(filename))
+    # for sentence in sentences:
+    #     i = 0
+    #     sentence_list_encoded.append(np.zeros(256))
+    #     words = Processing.get_words(sentence)
+    #     for ngram in top_ngram_list:
+    #         if set(ngram) <= set(words):
+    #             index = top_ngram_list.index(ngram)
+    #             ngram_encoded = top_ngrams_encoded[index]
+    #             for j in range(0, 256):
+    #                 sentence_list_encoded[i][j] += ngram_encoded[j]
+    #     i += 1
+    #
+    # encoded_input = list()
+    # for i in range(0, len(sentence_list_encoded)):
+    #     row = list()
+    #     row.extend(sentence_list_encoded[i])
+    #     for topic in topic_list_encoded:
+    #         row.extend(topic)
+    #     encoded_input.append(row)
+    #
+    # print(encoded_input)
+    #
+    # return np.array(encoded_input)
 
 
 def find_top_ngrams(preprocessed_file, ngram_count):
