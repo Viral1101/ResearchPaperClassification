@@ -67,6 +67,13 @@
         </a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="location.href='{% url 'abstracts' %}'">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Abstracts</span>
+        </a>
+      </li>
+
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link" href="#" onclick="location.href='{% url 'upload' %}'">
@@ -178,10 +185,6 @@
 
         <!-- Page Heading -->
             {% csrf_token %}
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Phrases</h1>
-            <a href="#" onclick="updatedb()" id="{% url 'update' %}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm update-link"><i class="fas fa-upload fa-sm text-white-50"></i> Update Model</a>
-          </div>
 
           <!-- Content Row -->
           {% for id,agree,phrase,core,topic in comb_lis %}
@@ -199,22 +202,8 @@
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
                           <div class="h5 mb-0 font-weight-bold text-gray-800 phrase-div" id="phr-{{id}}">{{phrase}}</div>
-                            <li>Classification:
-                                <div class="form-group text-uppercase">
-                                  <select class="form-control core-sel">
-                                    <option value="0" {% if core == 0 %}selected="selected"{% endif %}>core</option>
-                                    <option value="1" {% if core == 1 %}selected="selected"{% endif %}>peripheral</option>
-                                    <option value="2" {% if core == 2 %}selected="selected"{% endif %}>other</option>
-                                  </select>
-                                </div>
-                            </li>
-                            <li>Topic:
-                                <span class="topic-span" id="top-{{id}}">{{topic}}</span></li>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-auto">
-                        <input class="agree-tog" type="checkbox" data-toggle="toggle" id="agr-{{id}}" {% if agree %} checked {% endif %} data-on="Agree" data-off="Disagree" data-onstyle="success" data-offstyle="danger">
                     </div>
                   </div>
                 </div>

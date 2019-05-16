@@ -38,8 +38,10 @@ def index(request):
     count = 0
 
     docs = database.child('users').child(a).child('pubs').shallow().get().val()
-    if len(docs):
+    try:
         count = len(docs)
+    except:
+        count = 0
 
     return render(request, "index.html", {'e': name, 'count': count})
 
@@ -305,32 +307,91 @@ def publications(request):
     a = a['localId']
 
     docs = database.child('users').child(a).child('pubs').shallow().get().val()
+    comb_lis = zip()
     doc_list = []
-    for doc in docs:
-        doc_list.append(doc)
+    try:
+        for doc in docs:
+            doc_list.append(doc)
+    except:
+        doc_list = None
 
-    titles = []
-    for i in doc_list:
-        title = database.child('users').child(a).child('pubs').child(i).child('title').get().val()
-        titles.append(title)
+    if doc_list is not None:
+        titles = []
+        for i in doc_list:
+            title = database.child('users').child(a).child('pubs').child(i).child('title').get().val()
+            titles.append(title)
 
-    authors_list = []
-    for i in doc_list:
-        authr = database.child('users').child(a).child('pubs').child(i).child('authors').get().val()
-        authors_list.append(authr)
+        authors_list = []
+        for i in doc_list:
+            authr = database.child('users').child(a).child('pubs').child(i).child('authors').get().val()
+            authors_list.append(authr)
 
-    urls = []
-    for i in doc_list:
-        url = database.child('users').child(a).child('pubs').child(i).child('url').get().val()
-        urls.append(url)
+        urls = []
+        for i in doc_list:
+            url = database.child('users').child(a).child('pubs').child(i).child('url').get().val()
+            urls.append(url)
 
-    comb_lis = zip(doc_list, titles, authors_list, urls)
+        comb_lis = zip(doc_list, titles, authors_list, urls)
+
     firstname = database.child('users').child(a).child('details').child('firstname').get().val()
     lastname = database.child('users').child(a).child('details').child('lastname').get().val()
     name = firstname + " " + lastname
 
     return render(request, 'publications.html', {'comb_lis': comb_lis, 'e': name})
 
+
+def predicts(request, pid):
+    idtoken = request.session['uid']
+
+    pid = int(pid)
+
+    a = auth.get_account_info(idtoken)
+    a = a['users']
+    a = a[0]
+    a = a['localId']
+    firstname = database.child('users').child(a).child('details').child('firstname').get().val()
+    lastname = database.child('users').child(a).child('details').child('lastname').get().val()
+    name = firstname + " " + lastname
+
+    import pandas as pd
+    data2 = pd.read_csv('E:\\Documents\\GitHub\\ResearchPaperClassification\\src\\pub_class\\test.csv')
+
+    from keras.models import load_model
+    from keras.preprocessing.text import Tokenizer
+    from keras.preprocessing.sequence import pad_sequences
+    from sklearn.preprocessing import LabelEncoder
+
+    model = load_model('E:\\Documents\\GitHub\\ResearchPaperClassification\\src\\pub_class\\lstm_model.h5')
+    text = data2.iloc[pid]['abstract']
+
+    text = [text]
+
+    max_features = 5000
+    tokenizer = Tokenizer(num_words=max_features, split=' ')
+    tokenizer.fit_on_texts(text)
+    X = tokenizer.texts_to_sequences(text)
+    print(X)
+    X = pad_sequences(X, maxlen=263)
+    print(X)
+
+    data = pd.read_csv('E:\\Documents\\GitHub\\ResearchPaperClassification\\src\\pub_class\\training.csv')
+    data = data[['abstract', 'mesh']]
+
+    data = data[
+        data['mesh'].isin(['Epitopes', 'Immunity, Cellular', 'Staining and Labeling', 'Antibody Formation', 'Genes',
+                           'Hydrogen-Ion Concentration', 'Histocompatibility Antigens', 'Electroencephalography',
+                           'Antigens', 'HLA Antigens', 'Aging'])]
+
+    data['abstract'] = data['abstract'].apply(lambda x: x.lower())
+    data['mesh'] = data['mesh'].apply(lambda x: x.lower())
+    labelencoder = LabelEncoder()
+    integer_encoded = labelencoder.fit_transform(data['mesh'])
+
+    result = model.predict_classes(X)
+
+    output = labelencoder.inverse_transform(result)[0]
+
+    return render(request, 'predicts.html', {'abstract': text[0], 'mesh': data2.iloc[pid]['mesh'], 'output': output, 'e': name})
 
 def phrases(request, pid):
 
@@ -371,6 +432,28 @@ def phrases(request, pid):
     comb_lis = zip(phrase_id_ls, agrees, phrases, cores, topics)
     return render(request, 'phrases.html', {'comb_lis': comb_lis, 'e': name, 'pid': pid})
 
+
+def abstract(request):
+    idtoken = request.session['uid']
+
+    a = auth.get_account_info(idtoken)
+    a = a['users']
+    a = a[0]
+    a = a['localId']
+    firstname = database.child('users').child(a).child('details').child('firstname').get().val()
+    lastname = database.child('users').child(a).child('details').child('lastname').get().val()
+    name = firstname + " " + lastname
+
+    import pandas as pd
+    data2 = pd.read_csv('E:\\Documents\\GitHub\\ResearchPaperClassification\\src\\pub_class\\test.csv')
+    ids = list()
+
+    for i in range(0, len(data2)):
+        ids.append(i)
+
+    comb_lis = zip(ids, data2['abstract'], data2['mesh'])
+
+    return render(request, 'abstracts.html', {'comb_lis': comb_lis, 'e': name})
 
 def update(request):
     import json

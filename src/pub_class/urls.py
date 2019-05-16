@@ -34,7 +34,9 @@ urlpatterns = [
     url(r'^upload/', views.upload, name='upload'),
     url(r'^publications/', views.publications, name='publications'),
     url(r'^phrases/(?P<pid>\d+)/$', views.phrases, name='phrases'),
-    url(r'^update', views.update, name='update')
+    url(r'^update', views.update, name='update'),
+    url(r'^abstracts', views.abstract, name='abstracts'),
+    url(r'^predicts/(?P<pid>\d+)/$', views.predicts, name='predicts')
     ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
